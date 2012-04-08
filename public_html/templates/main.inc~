@@ -1,0 +1,53 @@
+
+
+	<div>
+		<h2 class='header'>Uplink Heraldry Generator</h2>
+		<a href='?template=edit'>
+			<div class='button'>
+				Create Coat of Arms
+			</div>
+		</a>
+		<br/>
+		<br/>
+		<p class='text'>
+			A utility for generating coat of arms.
+		</p>
+		<img src='headers/img/icon_main.png' class='mainimg' alt=''></img>
+		<p class='text'>
+			With this web based editor you can create your own Coat of Arms. You can start creating immediately by following the link above, or you can browse ready made coats of arms via the menu on the left.
+		</p>
+		<p class='text'>
+			In the editor you can save your work by bookmarking the page, or if you just want the finished product, you can save it as a PNG or PDF via the links in the editor.
+		</p>
+		<h3 class='header'>Updated Artwork</h3>
+		<p class='text'>
+			Some new artwork in the form of charges and other items have been submitted by Dave Barlow, who has a nice site about heraldry with some information about the subject for those wanting to learn more.
+			<br/>
+			You can visit his site at <a href='http://www.gamedecor.com/abasworld/heraldry.htm'>http://www.gamedecor.com/abasworld/heraldry.htm</a>
+		</p>
+	</div>
+
+<?php
+	$query = "
+	select	id,
+				parent,
+				header,
+				content,
+				postdate
+	from		$setting[schema].blog
+	order by postdate
+	";
+$bl = pg_query($conn,$query);
+
+while ($bl_r = pg_fetch_array($bl)) {
+	echo "
+	
+		<h3 class='header'>$bl_r[header] - $bl_r[postdate]</h3>
+	
+		<p class='text'>
+			$bl_r[content]
+		</p>
+		";
+}
+
+?>

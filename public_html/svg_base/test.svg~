@@ -1,0 +1,31 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100%" height="100%" viewBox="0 0 159.661 208.519" enable-background="new 0 0 159.661 208.519"
+	 xml:space="preserve">
+
+
+<pattern id="Wave" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="14.185px" height="14.173px"
+	viewBox="0 0 14.185 14.173" >
+	<g id="wave">
+		<path fill="none" stroke="#000000" d="M0.018,9.656c3.167,0,4-6,7.167-6s3.667,6,7,6"/>
+	</g>
+</pattern> 
+
+
+<g id="shield">
+	<path fill="#FIELD#" stroke="#000000" stroke-width="0" d="M158.367,145.863c0,22.642-73.914,48.666-78.748,60.321
+		c-5.911-11.052-78.333-39.094-78.333-60.321c0-11.322,0-144.345,0-144.345h157.082C158.367,1.518,158.367,134.542,158.367,145.863z
+		"/>
+</g>
+
+<g id="division">
+	#DIVISION#
+</g>
+
+<g id="shield_outline">
+	<path fill="none" stroke="url(#Wave)" stroke-width="3" d="M158.367,145.863c0,22.642-73.914,48.666-78.748,60.321
+		c-5.911-11.052-78.333-39.094-78.333-60.321c0-11.322,0-144.345,0-144.345h157.082C158.367,1.518,158.367,134.542,158.367,145.863z
+		"/>
+</g>
+
+</svg>

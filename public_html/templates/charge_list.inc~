@@ -1,0 +1,32 @@
+<?php
+
+$query = "
+	select	id,
+				name,
+				variation
+	from		$setting[schema].charges
+	order by name, variation
+	";
+$ch = pg_query($conn,$query);
+
+include("headers/buttons_admin.inc");
+
+echo "
+
+	<h3 class='header'>Charges</h3>
+
+	
+	";
+while ($ch_r = pg_fetch_array($ch)) {
+	echo "
+		<a href='?template=charge&amp;id=$ch_r[id]'>
+		<div class='charge_list'>
+			<img src='$setting[rpath]/render.php?type=charge&amp;size=50&amp;id=$ch_r[id]&amp;format=png' alt=''/>
+			".ucwords($ch_r[name])."<br/>
+			".ucwords($ch_r[variation])."
+		</div>
+		</a>
+		";
+}
+
+?>

@@ -1,0 +1,11 @@
+label.selTin,label.selDiv,label.selOrd,label.selVar,label.selHead {
+	display: block;
+	float: none;
+}
+div.selTin {
+	float: left;	
+}
+input.selTin, input.selDiv, input.selOrd, input.selVar, input.selHead {
+	position: relative;
+	visibility: visible;	
+}
