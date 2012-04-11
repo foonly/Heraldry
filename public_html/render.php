@@ -23,13 +23,15 @@ $hash = md5($_SERVER["QUERY_STRING"]);
 
 // handle the request variables in one place
 $size = isset( $_GET[size] ) ? $_GET[size] : 100;
+$id = $_GET[id];
+$itemtype = $_GET[type];
 $filename = $itemtype;
 
-switch ($_GET[type]) {
 // start to render
+switch( $itemtype ) {
 	case "charge":
 		
-		$svg .= renderCharge($_GET[id]);
+		$svg .= renderCharge( $id );
 		$f = strpos($svg, "100%");
 		$svg = substr_replace($svg, $size."px", $f, 4);
 		$f = strpos($svg, "100%");
@@ -56,7 +58,7 @@ switch ($_GET[type]) {
 		if (isset($_GET[coa])) {
 			$coa = unserialize($_GET[coa]);
 		} else {		
-			$coa = coatofarms($_GET[id]);
+			$coa = coatofarms( $id );
 		}
 		$svg .= renderSVG($coa);
 		if( $coa[name] ) {
@@ -80,17 +82,20 @@ switch ($output_format) {
 		echo $svg;
 	break;
 	case "png":
-		if (!$fmt) $fmt = "image/png";
-		$extopt = " -a -h {$size}";
+		if (!$fmt) 
+			$fmt = "image/png";
+		$extopt = "-a -h {$size}";
 		}
 		// Passthrough
 	case "pdf":
-		if (!$fmt) $fmt = "application/pdf";
+		if (!$fmt)
+			$fmt = "application/pdf";
 		$file = tempnam($setting[tmppath],"heraldry_").".svg";
 		if ($handle = fopen($file, "w")) {
 			fwrite($handle,$svg);
 			fclose($handle);
-			header("Content-type: ".$fmt); 
+			
+			header("Content-type: {$fmt}"); 
 			header("Cache-control: public");
 			header("Pragma: public");
 			header("Expires: ".date("D, d M Y H:i:s T",time()+86400));
