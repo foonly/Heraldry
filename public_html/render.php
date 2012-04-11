@@ -3,11 +3,18 @@
 require("../globals/init.inc");
 require("../globals/init_heraldry.inc");
 
-if (!isset($_GET[format]))
-	$_GET[format] = "svg";
+# if the format's not set, or is wrong, set it to svg
+if( $_GET[format] == "png" || $_GET[format] == "svg" || $_GET[format] == "pdf" )
+	{
+	$output_format = $_GET[format];
+	}
+else
+	{
+	$output_format = "svg";
+	}
 
-$svg = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 
+$svg = '<?xml version="1.0" encoding="UTF-8"?>\n';
 $hash = md5($_SERVER["QUERY_STRING"]);
 
 switch ($_GET[type]) {
@@ -59,7 +66,7 @@ switch ($_GET[type]) {
 
 $iname = preg_replace("/[^a-zA-Z0-9]/", "_", $iname);
 $extopt = "";
-switch ($_GET[format]) {
+switch ($output_format) {
 	case "svg":
 		header("Content-type: image/svg+xml; charset=utf-8"); 
 		header("Content-Disposition: inline; filename=".$iname.".svg");
