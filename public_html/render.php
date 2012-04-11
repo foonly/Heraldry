@@ -18,10 +18,10 @@ $svg = '<?xml version="1.0" encoding="UTF-8"?>\n';
 $hash = md5($_SERVER["QUERY_STRING"]);
 
 $size = isset( $_GET[size] ) ? $_GET[size] : 100;
+$filename = $itemtype;
 
 switch ($_GET[type]) {
 	case "charge":
-		$iname = "charge";
 		
 		$svg .= renderCharge($_GET[id]);
 		$f = strpos($svg, "100%");
@@ -30,7 +30,6 @@ switch ($_GET[type]) {
 		$svg = substr_replace($svg, $size."px", $f, 4);
 	break;
 	case "shield":
-		$iname = "shield";
 		if (isset($_GET[ord])) {
 			if (is_array($_GET[ord])) {
 				$ord = $_GET[ord];
@@ -48,27 +47,29 @@ switch ($_GET[type]) {
 		$svg = substr_replace($svg, $size."px", $f, 4);
 	break;
 	case "coa":
-		$iname = "coat of arms";
 		if (isset($_GET[coa])) {
 			$coa = unserialize($_GET[coa]);
 		} else {		
 			$coa = coatofarms($_GET[id]);
 		}
 		$svg .= renderSVG($coa);
-		if ($coa[name]) 		
-			$iname = $coa[name];
+		if( $coa[name] ) {
+			$filename = $coa[name];
+			}
 	break;
 	default:
 		exit();
 	break;
 }
 
-$iname = preg_replace("/[^a-zA-Z0-9]/", "_", $iname);
+// start to output the file
+
+$filename = preg_replace("/[^a-zA-Z0-9]/", "_", $filename). ".{$output_format}";
 $extopt = "";
 switch ($output_format) {
 	case "svg":
 		header("Content-type: image/svg+xml; charset=utf-8"); 
-		header("Content-Disposition: inline; filename=".$iname.".svg");
+		header("Content-Disposition: inline; filename={$filename}");
 		echo $svg;
 	break;
 	case "png":
@@ -86,8 +87,10 @@ switch ($output_format) {
 			header("Cache-control: public");
 			header("Pragma: public");
 			header("Expires: ".date("D, d M Y H:i:s T",time()+86400));
-			header("Content-Disposition: inline; filename=".$iname.".".$_GET[format]);
-			passthru("rsvg-convert{$extopt} --format={$_GET[format]} {$file"});
+			header("Content-Disposition: inline; filename={$filename}");
+			// convert the file from svg
+			passthru("rsvg-convert {$extopt} --format={$output_format} {$file}");
+			unlink( $file );
 			unset($file);
 		}
 	break;
