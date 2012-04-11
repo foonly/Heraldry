@@ -1,9 +1,13 @@
 <?php
 
+/* renders the image into a standalone format
+ currently supports png/svg/pdf
+*/
+
 require("../globals/init.inc");
 require("../globals/init_heraldry.inc");
 
-# if the format's not set, or is wrong, set it to svg
+// if the format's not set, or is wrong, set it to svg
 if( $_GET[format] == "png" || $_GET[format] == "svg" || $_GET[format] == "pdf" )
 	{
 	$output_format = $_GET[format];
@@ -17,10 +21,12 @@ else
 $svg = '<?xml version="1.0" encoding="UTF-8"?>\n';
 $hash = md5($_SERVER["QUERY_STRING"]);
 
+// handle the request variables in one place
 $size = isset( $_GET[size] ) ? $_GET[size] : 100;
 $filename = $itemtype;
 
 switch ($_GET[type]) {
+// start to render
 	case "charge":
 		
 		$svg .= renderCharge($_GET[id]);
@@ -66,6 +72,7 @@ switch ($_GET[type]) {
 
 $filename = preg_replace("/[^a-zA-Z0-9]/", "_", $filename). ".{$output_format}";
 $extopt = "";
+
 switch ($output_format) {
 	case "svg":
 		header("Content-type: image/svg+xml; charset=utf-8"); 
@@ -76,7 +83,7 @@ switch ($output_format) {
 		if (!$fmt) $fmt = "image/png";
 		$extopt = " -a -h {$size}";
 		}
-		// Passtrough
+		// Passthrough
 	case "pdf":
 		if (!$fmt) $fmt = "application/pdf";
 		$file = tempnam($setting[tmppath],"heraldry_").".svg";
