@@ -2,7 +2,7 @@
 
 $returl = "?template=charge&id=$_POST[id]";
 
-if (isset($_POST["del"])) {
+if ( isset($_POST["del"]) && isset( $_POST['id'] ) ) {
 	$query = "
 		delete	
 		from		$setting[schema].charges
