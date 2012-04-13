@@ -23,10 +23,10 @@ while ($gm_r = pg_fetch_array($gm)) {
 		if ($main != $gm_r[main]) {
 			$main = $gm_r[main];
 			echo "
-				<li class='main'><a href='?template=arms_display&amp;main=$gm_r[main]'>$gm_r[main]</a></li>
+				<li class='main'><a href='?template=arms_display&amp;main={$main}'>{$main}</a></li>
 				";
 		}
-		echo "<li class='sub'><a href='?template=arms_display&amp;main=$gm_r[main]&amp;group=$gm_r[id]'>$gm_r[sub]</a></li>";
+		echo "<li class='sub'><a href='?template=arms_display&amp;main={$main}&amp;group=$gm_r[id]'>$gm_r[sub]</a></li>";
 	}
 }
 
