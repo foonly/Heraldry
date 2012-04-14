@@ -2,11 +2,17 @@
 
 $tabs = Array("main","division","ordinaires");
 
-$coa = unserialize($_GET[coa]);
-if (!isset($coa[mantling])) {
-	$coa[mantling] = "azure";	
-	$coa[lineing] = "argent";	
-	$coa[field] = "argent";	
+if (!$_GET[id])
+	$id = 0;
+else
+	$id = $_GET[id];
+if( isset( $_GET[coa] ) {
+	$coa = unserialize($_GET[coa]);
+	if (!isset($coa[mantling])) {
+		$coa[mantling] = "azure";	
+		$coa[lineing] = "argent";	
+		$coa[field] = "argent";	
+	}
 }
 
 if (!is_array($coa[charges]))
@@ -23,18 +29,15 @@ if ($tab_flds = unserialize($_GET[tabfields])) {
 	}
 }
 
-if (!$_GET[id])
-	$_GET[id] = 0;
-
 // Save CoA
 if (isset($_GET[save]) || isset($_GET[savecopy])) {
 	if ($lvl) {
 		include("transaction/charge_save.inc");
-		echo "Coat of Arms Saved.<br/><a href='?template=arms&amp;id=$_GET[id]'>Arms</a>";
+		echo "Coat of Arms Saved.<br/><a href='?template=arms&amp;id={$id}'>Arms</a>";
 	} else {
 		echo "
 			You don't have sufficient permissions to save.<br/>
-			Press <a href='?template=edit&amp;id=$_GET[id]&amp;gr=$_GET[gr]&amp;coa=".serialize($coa)."'>here</a> to get back to the editor, and bookmark the page if you wish to save you coat of arms.<br/>
+			Press <a href='?template=edit&amp;id={$id}&amp;gr=$_GET[gr]&amp;coa=".serialize($coa)."'>here</a> to get back to the editor, and bookmark the page if you wish to save you coat of arms.<br/>
 			You can save the finnished Coat of Arms by right-clicking <a href='render.php?type=coa&amp;coa=".serialize($coa)."&amp;format=png'>PNG</a> or <a href='render.php?type=coa&amp;coa=".serialize($coa)."&amp;format=pdf'>PDF</a> and choosing Save links as..			
 			";
 	}
@@ -101,7 +104,7 @@ echo "
 		$tab_html
 		<div class='editor'>
 			<input type='hidden' name='template' value='$_GET[template]'/>
-			<input type='hidden' name='id' value='$_GET[id]'/>
+			<input type='hidden' name='id' value='{$id}'/>
 			<input type='hidden' name='main' value='$_GET[main]'/>
 			<input type='hidden' name='tab' value='$tab'/>
 			$button<br/><hr/>
