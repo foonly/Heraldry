@@ -124,12 +124,7 @@ function renderCharge ($id,$basecol="",$heading=0,$details=Array()) {
 	$size=100;
 
 	if ($id) {
-		$query = "
-			select	height,
-						width,
-						body,
-						proper,
-						details
+		$query = "select height, width, body, proper, details
 			from		$setting[schema].charges
 			where		id = $id
 			";
@@ -242,14 +237,16 @@ function listTin ($name,$choice,$tp=0,$proper="") {
 	
 	if ($tp)
 		$whe = "where	tp in ($tp)";
-	$query = "
-		select	id,
-					colour
+	else
+		$whe = "";
+
+	$query = "select	id, colour
 		from		$setting[schema].tinctures
-		$whe
-		order by	tp, id
-		";
+		{$whe}
+		order by	tp, id";
+
 	$ti = pg_query($conn,$query);
+
 	do {
 		if ($ti_r[id] || $proper != "") {
 			if (!$ti_r[id]) {
@@ -314,12 +311,10 @@ function blazon ($coa) {
 	if (is_array($coa[charges])) {
 		foreach ($coa[charges] as $c) {
 			if ($c[variation]) {		
-				$query = "
-					select	name,
-								variation
-					from		$setting[schema].charges
-					where		id = $c[variation]
 	// if has charges
+				$query = "select	name, variation
+					from		{$setting[schema]}.charges
+					where		id = {$charge[variation]}
 					";
 				$ch_r = pg_get($conn,$query);
 				if ($c[heading]) $h = " toward sinister"; else $h = "";
