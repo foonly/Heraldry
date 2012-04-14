@@ -285,6 +285,8 @@ function blazon ($coa) {
 	/* returns the string interpretation of a blazon for the given coat of arms */
 	global $conn, $setting;
 
+	$ret = "";	
+
 	$pos[1] = "chief dexter ";	
 	$pos[2] = "chief ";	
 	$pos[3] = "chief sinister ";	
