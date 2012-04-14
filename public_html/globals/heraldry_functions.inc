@@ -26,10 +26,8 @@ function renderSVG ($coa = Array()) {
 	if (!$coa[divcol2]) $coa[divcol2] = "AAAAAA";
 		
 	$base = "";
-	if ($handle = fopen("$setting[svgbase]/base.svg","r")) {
- 		while (!feof($handle)) {
-			$base .= fgets($handle, 4096);
-		}
+	if ($handle = fopen("{$setting[svgbase]}/base.svg","r")) {
+		$base .= fgets( $handle );
 		fclose($handle);		
 	}
 
