@@ -259,7 +259,7 @@ function listTin ($name,$choice,$tp=0,$proper="") {
 			$ret .= "
 				<div class='selTin'>
 					<input class='selTin' type='radio' name='$name' id='".$name."_".$ti_r[id]."' value='$ti_r[id]'$sel/>
-					<label class='selTin' for='".$name."_".$ti_r[id]."' style='background: $ti_r[colour]; color: ".invertHex($ti_r[colour]).";'>".ucwords($ti_r[id])."</label>
+					<label class='selTin' for='{$name}_{$ti_r[id]}' style='background: {$ti_r[colour]}; color: ".invertHex($ti_r[colour]).";'>".						ucwords($ti_r[id])."</label>
 				</div>
 				";
 		}
@@ -299,7 +299,7 @@ function blazon ($coa) {
 	
 	// division or field
 	if ($coa[division])
-		$ret .= "parted ".$coa[division]." ".$coa[field]." and ".$coa[divcol1];
+		$ret .= "parted {$coa[division]} {$coa[field]} and {$coa[divcol1]}";
 	else
 		$ret .= $coa[field];
 
@@ -307,27 +307,30 @@ function blazon ($coa) {
 	if (is_array($coa[ordinaries])) {
 		foreach ($coa[ordinaries] as $o) {
 			if ($o[tp])
-				$ret .= ", ".$o[tp]." ".$o[col];
+				$ret .= ", {$o['tp']} {$o[col]}";
 		}
 	}
-	if (is_array($coa[charges])) {
-		foreach ($coa[charges] as $c) {
-			if ($c[variation]) {		
+
 	// if has charges
+	if( is_array( $coa[charges] ) ) {
+ 		foreach ($coa[charges] as $charge ) {
+			if ($charge[variation]) {		
 				$query = "select	name, variation
 					from		{$setting[schema]}.charges
 					where		id = {$charge[variation]}
 					";
 				$ch_r = pg_get($conn,$query);
-				if ($c[heading]) $h = " toward sinister"; else $h = "";
-				$ret .= ", ".$pos[$c[pos]].$ch_r[name]." ".$ch_r[variation].$h." ".$c[base];
+				
+				if ($charge[heading]) $h = " toward sinister"; 
+				else $h = "";
+				
+				$ret .= ", {$pos[ $charge[pos] ]}{$ch_r[name]} {$ch_r[variation]}{$h} {$charge[base]}";
 				$pk = "";
 				$pd = "";
 				$dret = "";
-				$cc = $c[base];
-				if (is_array($c[details])) {
-				asort($c[details]);
-					foreach ($c[details] as $k => $d) {
+				if (is_array($charge[details])) {
+				asort($charge[details]);
+					foreach ($charge[details] as $k => $d) {
 						if ($pd != $cc) {				
 							if ($pd == $d)				
 								$dret .= " $pk and";
