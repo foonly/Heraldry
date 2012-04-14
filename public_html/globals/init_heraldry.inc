@@ -8,7 +8,7 @@ if (!isset($_GET[template]))
 
 // pull the tinctures from the db
 $query = "select	id, colour
-	from		$setting[schema].tinctures";
+	from		{$setting[schema]}.tinctures";
 
 $ti = pg_query($conn,$query);
 
