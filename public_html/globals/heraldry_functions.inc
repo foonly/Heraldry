@@ -320,7 +320,7 @@ function blazon ($coa) {
 				if ($charge[heading]) $h = " toward sinister"; 
 				else $h = "";
 				
-				$ret .= ", {$pos[ $charge[pos] ]}{$ch_r[name]} {$ch_r[variation]}{$h} {$charge[base]}";
+				$ret .= ", ".$pos[ $charge[pos] ]."{$ch_r[name]} {$ch_r[variation]}{$h} {$charge[base]}";
 				$pk = "";
 				$pd = "";
 				$dret = "";
@@ -329,16 +329,16 @@ function blazon ($coa) {
 					foreach ($charge[details] as $k => $d) {
 						if ($pd != $cc) {				
 							if ($pd == $d)				
-								$dret .= " $pk and";
+								$dret .= " {$pk} and";
 							else				
-								$dret .= " $pk $pd";
+								$dret .= " {$pk} {$pd}";
 							$pk = $k;
 							$pd = $d;
 						}				
 					}
 				}
 				if ($pd != $cc) {				
-					$dret .= " $pk $pd";
+					$dret .= " {$pk} {$pd}";
 				}
 				if (strlen(trim($dret)))
 					$ret .= trim(",".$dret);
