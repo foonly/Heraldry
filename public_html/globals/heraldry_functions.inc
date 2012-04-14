@@ -124,8 +124,7 @@ function renderCharge ($id,$basecol="",$heading=0,$details=Array()) {
 	if ($id) {
 		$query = "select height, width, body, proper, details
 			from		$setting[schema].charges
-			where		id = $id
-			";
+			where		id = $id";
 		$ch_r = pg_get($conn,$query);
 		$th = 0;
 		$tw = 0;
@@ -315,8 +314,7 @@ function blazon ($coa) {
 			if ($charge[variation]) {		
 				$query = "select	name, variation
 					from		{$setting[schema]}.charges
-					where		id = {$charge[variation]}
-					";
+					where		id = {$charge[variation]}";
 				$ch_r = pg_get($conn,$query);
 				
 				if ($charge[heading]) $h = " toward sinister"; 
