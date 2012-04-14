@@ -9,16 +9,16 @@ $db[user] = "postgres";
 $db[password] = "";
 $db[name] = "uudb";
 
-$setting[schema]="rpg";
-$setting[site_uri]="rpg.uplink.fi";
-$setting[title]="Uplink RPG Site";
+$setting[schema]="rpg"; // the database table
+$setting[site_uri]="rpg.uplink.fi"; // the base url of the site
+$setting[title]="Uplink RPG Site"; // the base title of the site
 $setting[section]="*";
 $setting[rpath]="";
-$setting[apath]="/var/www/web/dev/rpg";
-$setting[tmppath]="/var/www/tmp";
+$setting[apath]="/var/www/web/dev/rpg"; 
+$setting[tmppath]="/var/www/tmp"; // temp path
 $setting[imgpath]="/headers/img";
 $setting[imgcache]="/var/www/imgcache";
-$setting[pass_salt] = "xt0LrNoS";
+$setting[pass_salt] = "xt0LrNoS"; 
 $setting[dev] = 1;
 $site = 11;
 

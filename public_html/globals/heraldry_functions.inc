@@ -1,6 +1,22 @@
 <?php
 
 function renderSVG ($coa = Array()) {
+	/* 
+	renders a coat of arms into a valid SVG file, returning the SVG as a string
+
+	Takes an array with the following elements:
+		lineing
+		mantling
+		field
+		divcol1
+		divcol2
+		banner
+		name
+		division
+		divline
+		orginaries
+		charges
+	*/
 	global $setting, $tinct;
 
 	if (!$coa[lineing]) $coa[lineing] = "FFFFFF";
@@ -100,6 +116,9 @@ function renderShield ($field,$division,$divline,$divcol1,$divcol2,$ordinaries=A
 	return $shield;
 }
 function renderCharge ($id,$basecol="",$heading=0,$details=Array()) {
+	/*
+	renders a charge by its id and other details
+	*/
 	global $conn, $setting;
 
 	$size=100;
@@ -152,6 +171,7 @@ function renderCharge ($id,$basecol="",$heading=0,$details=Array()) {
 	return $svg;
 }
 function coatOfArms($id) {
+	/* returns a coat of arms from the database */
 	global $conn, $setting;
 	$query = "
 		select	definition
@@ -265,6 +285,7 @@ function listLine ($file,$choice,$name="divline") {
 }
 
 function blazon ($coa) {
+	/* returns the string interpretation of a blazon for the given coat of arms */
 	global $conn, $setting;
 
 	$pos[1] = "chief dexter ";	
@@ -277,10 +298,13 @@ function blazon ($coa) {
 	$pos[8] = "base ";	
 	$pos[9] = "base sinister ";	
 	
+	// division or field
 	if ($coa[division])
 		$ret .= "parted ".$coa[division]." ".$coa[field]." and ".$coa[divcol1];
 	else
 		$ret .= $coa[field];
+
+	// if has ordinaries
 	if (is_array($coa[ordinaries])) {
 		foreach ($coa[ordinaries] as $o) {
 			if ($o[tp])
@@ -295,6 +319,7 @@ function blazon ($coa) {
 								variation
 					from		$setting[schema].charges
 					where		id = $c[variation]
+	// if has charges
 					";
 				$ch_r = pg_get($conn,$query);
 				if ($c[heading]) $h = " toward sinister"; else $h = "";

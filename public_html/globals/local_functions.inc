@@ -11,6 +11,7 @@ function var_glob ($path) {
 }
 
 function invertHex ($hex) {
+	// returns the decimal interpretation of the hex value?
 	if (strlen($hex) == 7 && substr($hex,0,1) == "#") {
 		$he = "#";
 		for ($i = 1;$i<6;$i+=2) {
@@ -24,6 +25,7 @@ function invertHex ($hex) {
 }
 
 function getlvl ($uid,$section="") {
+	// returns userlevel of a given uid for a given section (if supplied)
 	global $conn, $setting;
 	
 	if (!$section)
