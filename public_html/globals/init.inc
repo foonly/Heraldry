@@ -14,6 +14,7 @@ require("xml_extra_functions.inc");
 $conn = db_connect();
 $today = time();
 
+// if user is asking for logout, clear details
 if ($_GET[template] == "logout") {
 	$_SESSION[id] = 0;
 	$_SESSION[mon] = 0;
