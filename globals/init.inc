@@ -11,6 +11,10 @@ require("db_functions.inc");
 require("uudb_functions.inc");
 require("xml_extra_functions.inc");
 
+require("settings_heraldry.inc");
+require("heraldry_functions.inc");
+
+
 $conn = db_connect();
 $today = time();
 
@@ -45,6 +49,24 @@ if (strstr($_SERVER["HTTP_ACCEPT"],"application/xhtml+xml")) {
 	$contenttype = "text/html";
 	$xhtml = 0;
 }
+
+
+if (!isset($_GET['template']))
+    $_GET['template'] = "main";
+
+$query = "
+    select
+        id,
+        colour
+    from
+        $setting[schema].tinctures
+    ";
+$ti = pg_query($conn,$query);
+while ($ti_r = pg_fetch_array($ti)) {
+    $tinct[$ti_r['id']] = $ti_r['colour']; 
+}
+
+
 
 echo header("Content-type: $contenttype; charset=utf-8"); 
 
