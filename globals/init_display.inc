@@ -2,11 +2,6 @@
 
 // TODO Check these
 
-//include("basic_html.inc");
-//include("xml_extra_functions.inc");
-
-include("menu.inc");
-
 require('Smarty-3.1.12/libs/Smarty.class.php');
 $smartyBase = new Smarty();
 
@@ -22,6 +17,5 @@ $smartyBase->assign('user',$user);
 $smartyBase->assign('menu',$menu);
 
 $smarty = clone $smartyBase;
-
 
 ?>
