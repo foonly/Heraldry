@@ -1,15 +1,14 @@
 <?php
 
-
 // Database Settings
 $db[type] = "pg"; // mysql or pg
 $db[server] = "db.uplink.fi";
 $db[port] = 5432; // 3306 for mysql & 5432 for postgresql
-$db[user] = "postgres";
+$db[user] = "heraldry";
 $db[password] = "";
-$db[name] = "uudb";
+$db[name] = "heraldry";
 
-$setting[schema]="heraldry";
+$setting[schema]="public";
 $setting[site_uri]="heraldry.dev.uplink.fi";
 $setting[title]="Uplink Heraldry Site";
 $setting[rpath]="";
@@ -22,27 +21,13 @@ $setting[pass_salt] = "xt0LrNoS";
 $setting[dev] = 1;
 $setting[css] = array("base");
 
-$site = 11;
-
 $locale="en";
 
 $lvlnm[0] = "Read Only";
-$lvlnm[1] = "User";
-$lvlnm[2] = "Editor";
-$lvlnm[3] = "Moderator";
-$lvlnm[4] = "Content Admin";
-$lvlnm[5] = "Section Admin";
-$lvlnm[6] = "Site Admin";
-
-$css .= "
-		<link href='css/base.css' rel='stylesheet' type='text/css' media='screen'/>";
-
-$css .= "
-        <link href='/heraldry/headers/heraldry.css' rel='stylesheet' type='text/css' media='screen'/>
-        <!--[if IE]>
-            <link href='/heraldry/headers/heraldry_ie.css' rel='stylesheet' type='text/css' media='screen'/>
-        <![endif]-->
-        ";
-
+$lvlnm[2] = "User";
+$lvlnm[4] = "Advanced User";
+$lvlnm[6] = "Contributor";
+$lvlnm[8] = "Content Admin";
+$lvlnm[10] = "Admin";
 
 ?>
