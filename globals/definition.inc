@@ -1,6 +1,19 @@
 <?php
 
-$detail_colour = Array("base","armed","langued","pizzled","attired","unguled","crined","fructed","leaved","barbed","incensed","flammant");
+$detail_colour = Array(
+	"base",
+	"armed",
+	"langued",
+	"pizzled",
+	"attired",
+	"unguled",
+	"crined",
+	"fructed",
+	"leaved",
+	"barbed",
+	"incensed",
+	"flammant",
+	);
 
 // Position & size
 $row[1]=1;
