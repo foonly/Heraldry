@@ -20,6 +20,8 @@ $setting[imgcache]="/var/www/imgcache";
 $setting[svgbase]=$setting[apath]."/svg_base";
 $setting[pass_salt] = "xt0LrNoS";
 $setting[dev] = 1;
+$setting[css] = array("base");
+
 $site = 11;
 
 $locale="en";
@@ -33,7 +35,7 @@ $lvlnm[5] = "Section Admin";
 $lvlnm[6] = "Site Admin";
 
 $css .= "
-		<link href='/headers/base.css' rel='stylesheet' type='text/css' media='screen'/>";
+		<link href='css/base.css' rel='stylesheet' type='text/css' media='screen'/>";
 
 $css .= "
         <link href='/heraldry/headers/heraldry.css' rel='stylesheet' type='text/css' media='screen'/>
