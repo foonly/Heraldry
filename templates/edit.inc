@@ -129,14 +129,10 @@ echo"
 	</div>
 	";
 
-echo "
-	<div class='blazon'>
-		<h3>Blazon (beta)</h3>
-		<p>".blazon($coa)."</p>
-	</div>
-	";
 
 if ($setting[dev])
 	print_r($coa);
 
+$smarty->assign("coa",$coa);
+	
 ?>
