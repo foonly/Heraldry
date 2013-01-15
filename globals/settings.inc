@@ -11,7 +11,7 @@ $db[name] = "uudb";
 
 $setting[schema]="rpg";
 $setting[site_uri]="heraldry.dev.uplink.fi";
-$setting[title]="Uplink RPG Site";
+$setting[title]="Uplink Heraldry Site";
 $setting[section]="*";
 $setting[rpath]="";
 $setting[apath]="/var/www/web/dev/heraldry";
