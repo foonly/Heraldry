@@ -1,7 +1,6 @@
 <?php
 
 require("../globals/init.inc");
-require("../globals/init_heraldry.inc");
 
 include("../headers/header.inc");
 include("headers/header.inc");

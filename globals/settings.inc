@@ -9,15 +9,15 @@ $db[user] = "postgres";
 $db[password] = "";
 $db[name] = "uudb";
 
-$setting[schema]="rpg";
+$setting[schema]="heraldry";
 $setting[site_uri]="heraldry.dev.uplink.fi";
 $setting[title]="Uplink Heraldry Site";
-$setting[section]="*";
 $setting[rpath]="";
 $setting[apath]="/var/www/web/dev/rpg";
 $setting[tmppath]="/var/www/tmp";
 $setting[imgpath]="/headers/img";
 $setting[imgcache]="/var/www/imgcache";
+$setting[svgbase]=$setting[apath]."/svg_base";
 $setting[pass_salt] = "xt0LrNoS";
 $setting[dev] = 1;
 $site = 11;
@@ -34,5 +34,13 @@ $lvlnm[6] = "Site Admin";
 
 $css .= "
 		<link href='/headers/base.css' rel='stylesheet' type='text/css' media='screen'/>";
+
+$css .= "
+        <link href='/heraldry/headers/heraldry.css' rel='stylesheet' type='text/css' media='screen'/>
+        <!--[if IE]>
+            <link href='/heraldry/headers/heraldry_ie.css' rel='stylesheet' type='text/css' media='screen'/>
+        <![endif]-->
+        ";
+
 
 ?>
