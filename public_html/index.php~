@@ -1,0 +1,13 @@
+<?php
+
+require("../globals/init.inc");
+require("../globals/init_heraldry.inc");
+
+include("../headers/header.inc");
+include("../heraldry/headers/header.inc");
+
+include("templates/$template.inc");
+
+include("../headers/footer.inc");
+
+?>

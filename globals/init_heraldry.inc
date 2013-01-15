@@ -3,17 +3,19 @@
 require("settings_heraldry.inc");
 require("heraldry_functions.inc");
 
-if (!isset($_GET[template]))
-	$_GET[template] = "main";
+if (!isset($_GET['template']))
+	$_GET['template'] = "main";
 
 $query = "
-	select	id,
-				colour
-	from		$setting[schema].tinctures
+    select
+        id,
+		colour
+    from
+    $setting[schema].tinctures
 	";
 $ti = pg_query($conn,$query);
 while ($ti_r = pg_fetch_array($ti)) {
-	$tinct[$ti_r[id]] = $ti_r[colour]; 
+	$tinct[$ti_r['id']] = $ti_r['colour']; 
 }
 
 // Position & size
