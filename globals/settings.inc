@@ -10,7 +10,7 @@ $db[password] = "";
 $db[name] = "uudb";
 
 $setting[schema]="rpg";
-$setting[site_uri]="rpg.uplink.fi";
+$setting[site_uri]="heraldry.dev.uplink.fi";
 $setting[title]="Uplink Heraldry Site";
 $setting[section]="*";
 $setting[rpath]="";
