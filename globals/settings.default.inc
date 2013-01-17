@@ -1,5 +1,7 @@
 <?php
 
+// Copy this file to settings.inc on deployment.
+
 // Database Settings
 $db[type] = "pg"; // mysql or pg
 $db[server] = ""; // hostname or ip
@@ -21,12 +23,5 @@ $setting[dev] = 1;
 $setting[css] = array("base");
 
 $locale="en";
-
-$lvlnm[0] = "Read Only";
-$lvlnm[2] = "User";
-$lvlnm[4] = "Advanced User";
-$lvlnm[6] = "Contributor";
-$lvlnm[8] = "Content Admin";
-$lvlnm[10] = "Admin";
 
 ?>

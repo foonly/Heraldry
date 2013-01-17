@@ -1,5 +1,12 @@
 <?php
 
+$lvlnm[0] = "Read Only";
+$lvlnm[2] = "User";
+$lvlnm[4] = "Advanced User";
+$lvlnm[6] = "Contributor";
+$lvlnm[8] = "Content Admin";
+$lvlnm[10] = "Admin";
+
 $detail_colour = Array(
 	"base",
 	"armed",
