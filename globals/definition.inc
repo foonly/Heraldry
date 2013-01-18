@@ -22,6 +22,27 @@ $detail_colour = Array(
 	"flammant",
 	);
 
+$tinctures = array(
+    "argent" => array("tp"=>1,"colour"=>"#e7ebec"),
+    "or" => array("tp"=>1,"colour"=>"#f2d73a"),
+    "azure" => array("tp"=>2,"colour"=>"#2121CC"),
+    "gules" => array("tp"=>2,"colour"=>"#e10404"),
+    "purpure" => array("tp"=>2,"colour"=>"#884da0"),
+    "sable" => array("tp"=>2,"colour"=>"#000000"),
+    "vert" => array("tp"=>2,"colour"=>"#30783B"),
+    "murrey" => array("tp"=>3,"colour"=>"#800040"),
+    "sanguine" => array("tp"=>3,"colour"=>"#c00000"),
+    "tenne" => array("tp"=>3,"colour"=>"#E0760B"),
+    "ermine" => array("tp"=>4,"colour"=>"url(#FurErmine)"),
+    "ermines" => array("tp"=>4,"colour"=>"url(#FurErmines)"),
+    "erminois" => array("tp"=>4,"colour"=>"url(#FurErminois)"),
+    "pean" => array("tp"=>4,"colour"=>"url(#FurPean)"),
+    "potent" => array("tp"=>4,"colour"=>"url(#FurPotent)"),
+    "counter potent" => array("tp"=>4,"colour"=>"url(#FurCounterPotent)"),
+    "vair" => array("tp"=>4,"colour"=>"url(#FurVair)"),
+    "counter vair" => array("tp"=>4,"colour"=>"url(#FurCounterVair)"),
+    );
+
 // Position & size
 $row[1]=1;
 $col[1]=1;
