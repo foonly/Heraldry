@@ -12,6 +12,8 @@ require "xml_extra_functions.inc";
 
 require "heraldry_functions.inc";
 
+spl_autoload_register('classloader');
+
 $conn = db_connect();
 $today = time();
 

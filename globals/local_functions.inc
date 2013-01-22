@@ -49,4 +49,8 @@ function getlvl ($uid,$section="") {
 	}
 }
 
+function classloader ($class) {
+    include_once "../classes/{$class}.class.inc";
+}
+
 ?>
