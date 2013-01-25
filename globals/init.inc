@@ -11,6 +11,7 @@ require "db_functions.inc";
 require "xml_extra_functions.inc";
 
 require "heraldry_functions.inc";
+require "definition.inc";
 
 spl_autoload_register('classloader');
 

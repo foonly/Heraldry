@@ -10,6 +10,9 @@ header("Content-Disposition: inline; filename=test.svg");
 
 $coa = new coa();
 
+$coa->setDivision("per_bend");
+$coa->addOrdinary("saltire","azure");
+
 echo $coa->render();
 
 ?>

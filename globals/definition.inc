@@ -22,7 +22,7 @@ $detail_colour = Array(
 	"flammant",
 	);
 
-$tinctures = array(
+$GLOBALS['tincture'] = array(
     "argent" => array("tp"=>1,"colour"=>"#e7ebec"),
     "or" => array("tp"=>1,"colour"=>"#f2d73a"),
     "azure" => array("tp"=>2,"colour"=>"#2121CC"),
