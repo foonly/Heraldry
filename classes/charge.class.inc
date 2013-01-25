@@ -15,10 +15,8 @@ class charge {
         "incensed", // 
         "flammant", // Fire
         );
-    
-    
-    
+    private $armed;
+    private $langued;
     
 }
-
 ?>

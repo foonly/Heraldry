@@ -18,6 +18,9 @@ spl_autoload_register('classloader');
 $conn = db_connect();
 $today = time();
 
+$dsn = "{$setting['db']['type']}:dbname={$setting['db']['name']};host={$setting['db']['server']}";
+$db = new db($dsn,$setting['db']['user'],$setting['db']['password']);
+
 if ($_GET[template] == "logout") {
 	$_SESSION[id] = 0;
 	$_SESSION[mon] = 0;
