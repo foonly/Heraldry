@@ -7,21 +7,6 @@ $lvlnm[6] = "Contributor";
 $lvlnm[8] = "Content Admin";
 $lvlnm[10] = "Admin";
 
-$detail_colour = Array(
-	"base",
-	"armed",
-	"langued",
-	"pizzled",
-	"attired",
-	"unguled",
-	"crined",
-	"fructed",
-	"leaved",
-	"barbed",
-	"incensed",
-	"flammant",
-	);
-
 $GLOBALS['tincture'] = array(
     "argent" => array("tp"=>1,"colour"=>"#e7ebec"),
     "or" => array("tp"=>1,"colour"=>"#f2d73a"),
@@ -44,68 +29,57 @@ $GLOBALS['tincture'] = array(
     );
 
 // Position & size
-$row[1]=1;
-$col[1]=1;
-$row[2]=1;
-$col[2]=2;
-$row[3]=1;
-$col[3]=3;
-$row[4]=2;
-$col[4]=1;
-$row[5]=2;
-$col[5]=2;
-$row[6]=2;
-$col[6]=3;
-$row[7]=3;
-$col[7]=1;
-$row[8]=3;
-$col[8]=2;
-$row[9]=3;
-$col[9]=3;
+$position = array(
+    1 => array("row"=>0,"col"=>0),
+    2 => array("row"=>0,"col"=>1),
+    3 => array("row"=>0,"col"=>2),
+    4 => array("row"=>1,"col"=>0),
+    5 => array("row"=>1,"col"=>1),
+    6 => array("row"=>1,"col"=>2),
+    7 => array("row"=>2,"col"=>0),
+    8 => array("row"=>2,"col"=>1),
+    9 => array("row"=>2,"col"=>2),
+    );
 
-// Size -1 (Oversize)
-$chargesize[-1]=".92";
-$chargerow[-1][1]=0;
-$chargerow[-1][2]=0;
-$chargerow[-1][3]=0;
-$chargecol[-1][1]=0;
-$chargecol[-1][2]=6;
-$chargecol[-1][3]=12;
+$charge = array(
+    // Oversize
+    -1 => array(
+        "size" => .92,
+        "row" => array(0,0,0),
+        "col" => array(0,6,12),
+        ),
+    // Full
+    0 => array(
+        "size" => .75,
+        "row" => array(-10,11,50),
+        "col" => array(5,14,25),
+        ),
+    // Large
+    1 => array(
+        "size" => .5,
+        "row" => array(-6,37.5,82),
+        "col" => array(5,34,65),
+        ),
+    // Medium
+    2 => array(
+        "size" => .4,
+        "row" => array(0,48,95),
+        "col" => array(6,42,80),
+        ),
+    // Small
+    3 => array(
+        "size" => .2,
+        "row" => array(5,69,125),
+        "col" => array(7,58,108),
+        ),
+    // Mini
+    4 => array(
+        "size" => .12,
+        "row" => array(5,69,125),
+        "col" => array(7,58,108),
+        ),
+    );
 
-// Size 0 (Full)
-$chargesize[0]=".75";
-$chargerow[0][1]=-10;
-$chargerow[0][2]=11;
-$chargerow[0][3]=50;
-$chargecol[0][1]=5;
-$chargecol[0][2]=14;
-$chargecol[0][3]=25;
 
-// Size 1 (Large)
-$chargesize[1]=".5";
-$chargerow[1][1]=-6;
-$chargerow[1][2]=37.5;
-$chargerow[1][3]=82;
-$chargecol[1][1]=5;
-$chargecol[1][2]=34;
-$chargecol[1][3]=65;
-
-// Size 2 (Medium)
-$chargesize[2]=".4";
-$chargerow[2][1]=0;
-$chargerow[2][2]=48;
-$chargerow[2][3]=95;
-$chargecol[2][1]=6;
-$chargecol[2][2]=42;
-$chargecol[2][3]=80;
-
-// Size 3 (Small)
-$chargesize[3]=".20";
-$chargerow[3][1]=5;
-$chargerow[3][2]=69;
-$chargerow[3][3]=125;
-$chargecol[3][1]=7;
-$chargecol[3][2]=58;
-$chargecol[3][3]=108;
 
 ?>
