@@ -6,6 +6,7 @@ require "../globals/init_display.inc";
 $template = $_GET['template'];
 
 
+
 $sOutput = "";
 if (file_exists("../templates/{$template}.inc")) {
     // Save all output from called php template

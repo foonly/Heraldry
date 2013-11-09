@@ -1,1 +1,4 @@
 /globals/settings.inc
+*~
+.DS_Store
+*.swp

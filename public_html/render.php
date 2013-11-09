@@ -1,30 +1,43 @@
 <?php
 
+/* renders the image into a standalone format
+ currently supports png/svg/pdf
+*/
+
 require("../globals/init.inc");
 require("../globals/init_heraldry.inc");
 
-if (!isset($_GET[format]))
-	$_GET[format] = "svg";
+// if the format's not set, or is wrong, set it to svg
+if( $_GET[format] == "png" || $_GET[format] == "svg" || $_GET[format] == "pdf" )
+	{
+	$output_format = $_GET[format];
+	}
+else
+	{
+	$output_format = "svg";
+	}
 
-$svg = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 
+$svg = '<?xml version="1.0" encoding="UTF-8"?>\n';
 $hash = md5($_SERVER["QUERY_STRING"]);
 
-switch ($_GET[type]) {
+// handle the request variables in one place
+$size = isset( $_GET[size] ) ? $_GET[size] : 100;
+$id = $_GET[id];
+$itemtype = $_GET[type];
+$filename = $itemtype;
+
+// start to render
+switch( $itemtype ) {
 	case "charge":
-		$iname = "charge";
-		if (!isset($_GET[size]))
-			$_GET[size] = 100;
-		$svg .= renderCharge($_GET[id]);
+		
+		$svg .= renderCharge( $id );
 		$f = strpos($svg, "100%");
-		$svg = substr_replace($svg, $_GET[size]."px", $f, 4);
+		$svg = substr_replace($svg, $size."px", $f, 4);
 		$f = strpos($svg, "100%");
-		$svg = substr_replace($svg, $_GET[size]."px", $f, 4);
+		$svg = substr_replace($svg, $size."px", $f, 4);
 	break;
 	case "shield":
-		$iname = "shield";
-		if (!isset($_GET[size]))
-			$_GET[size] = 100;
 		if (isset($_GET[ord])) {
 			if (is_array($_GET[ord])) {
 				$ord = $_GET[ord];
@@ -37,52 +50,59 @@ switch ($_GET[type]) {
 		} 
 		$svg .= renderShield ($_GET[fld],$_GET[div],"",$_GET[dcl1],$_GET[dcl2],$ord);
 		$f = strpos($svg, "100%");
-		$svg = substr_replace($svg, $_GET[size]."px", $f, 4);
+		$svg = substr_replace($svg, $size."px", $f, 4);
 		$f = strpos($svg, "100%");
-		$svg = substr_replace($svg, $_GET[size]."px", $f, 4);
+		$svg = substr_replace($svg, $size."px", $f, 4);
 	break;
 	case "coa":
-		$iname = "coat of arms";
 		if (isset($_GET[coa])) {
 			$coa = unserialize($_GET[coa]);
 		} else {		
-			$coa = coatofarms($_GET[id]);
+			$coa = coatofarms( $id );
 		}
 		$svg .= renderSVG($coa);
-		if ($coa[name]) 		
-			$iname = $coa[name];
+		if( $coa[name] ) {
+			$filename = $coa[name];
+			}
 	break;
 	default:
 		exit();
 	break;
 }
 
-$iname = preg_replace("/[^a-zA-Z0-9]/", "_", $iname);
+// start to output the file
+
+$filename = preg_replace("/[^a-zA-Z0-9]/", "_", $filename). ".{$output_format}";
 $extopt = "";
-switch ($_GET[format]) {
+
+switch ($output_format) {
 	case "svg":
 		header("Content-type: image/svg+xml; charset=utf-8"); 
-		header("Content-Disposition: inline; filename=".$iname.".svg");
+		header("Content-Disposition: inline; filename={$filename}");
 		echo $svg;
 	break;
 	case "png":
-		if (!$fmt) $fmt = "image/png";
-		if (isset($_GET[size])) {
-			$extopt = " -a -h $_GET[size]";
+		if (!$fmt) 
+			$fmt = "image/png";
+		$extopt = "-a -h {$size}";
 		}
-		// Passtrough
+		// Passthrough
 	case "pdf":
-		if (!$fmt) $fmt = "application/pdf";
+		if (!$fmt)
+			$fmt = "application/pdf";
 		$file = tempnam($setting[tmppath],"heraldry_").".svg";
 		if ($handle = fopen($file, "w")) {
 			fwrite($handle,$svg);
 			fclose($handle);
-			header("Content-type: ".$fmt); 
+			
+			header("Content-type: {$fmt}"); 
 			header("Cache-control: public");
 			header("Pragma: public");
 			header("Expires: ".date("D, d M Y H:i:s T",time()+86400));
-			header("Content-Disposition: inline; filename=".$iname.".".$_GET[format]);
-			passthru("rsvg-convert$extopt --format=$_GET[format] $file");
+			header("Content-Disposition: inline; filename={$filename}");
+			// convert the file from svg
+			passthru("rsvg-convert {$extopt} --format={$output_format} {$file}");
+			unlink( $file );
 			unset($file);
 		}
 	break;
