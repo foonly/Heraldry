@@ -7,7 +7,6 @@ include "settings.inc";
 require "local_functions.inc";
 require "functions.inc";
 require "basic_html.inc";
-require "db_functions.inc";
 require "xml_extra_functions.inc";
 
 require "heraldry_functions.inc";
@@ -15,7 +14,6 @@ require "definition.inc";
 
 spl_autoload_register('classloader');
 
-$conn = db_connect();
 $today = time();
 
 $dsn = "{$setting['db']['type']}:dbname={$setting['db']['name']};host={$setting['db']['server']}";
@@ -49,18 +47,6 @@ if (strstr($_SERVER["HTTP_ACCEPT"],"application/xhtml+xml")) {
 
 if (!isset($_GET['template']))
     $_GET['template'] = "main";
-
-$query = "
-    select
-        id,
-        colour
-    from
-        $setting[schema].tinctures
-    ";
-$ti = pg_query($conn,$query);
-while ($ti_r = pg_fetch_array($ti)) {
-    $tinct[$ti_r['id']] = $ti_r['colour'];
-}
 
 echo header("Content-type: $contenttype; charset=utf-8"); 
 
