@@ -4,7 +4,7 @@
  currently supports png/svg/pdf
 */
 
-require("../globals/init.inc");
+require("../globals/init.php");
 require("../globals/init_heraldry.inc");
 
 // if the format's not set, or is wrong, set it to svg

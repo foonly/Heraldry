@@ -1,6 +1,6 @@
 <?php
 
-require("../../globals/init.inc");
+require("../../globals/init.php");
 require("../../globals/init_heraldry.inc");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

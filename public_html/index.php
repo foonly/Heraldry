@@ -1,7 +1,7 @@
 <?php
 
-require "../globals/init.inc";
-require "../globals/init_display.inc";
+require "../globals/init.php";
+require "../globals/init_display.php";
 
 $template = $_GET['template'];
 

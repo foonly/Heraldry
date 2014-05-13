@@ -1,4 +1,5 @@
-/globals/settings.inc
+/globals/settings.php
 *~
 .DS_Store
 *.swp
+*.orig
