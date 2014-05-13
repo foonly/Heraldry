@@ -2,8 +2,10 @@
 
 session_start();
 
-include "settings.php";
-include "foondb/db.class.php";
+require_once "settings.php";
+require_once "foondb/db.class.php";
+
+require_once "local_functions.php";
 
 spl_autoload_register('classloader');
 

@@ -1,6 +1,6 @@
 <?php
 
-require("../globals/init.php");
+require("../include/init.php");
 
 if (empty($setting['dev']))
     die("Only allowed in dev mode");

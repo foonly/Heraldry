@@ -23,32 +23,6 @@ function invertHex ($hex) {
 	return $he;
 }
 
-function getlvl ($uid,$section="") {
-	global $conn, $setting;
-	
-	if (!$section)
-		$section	= $setting[section];
-
-	if ($uid) {
-		$query = "
-			select	permissions,
-						section
-			from		rpg.admin
-			where		id = $uid
-			and		(section = '$section'
-			or			section = '*')
-			order by	section desc
-			";
-		$ch_r = pg_get($conn,$query);
-		if ($ch_r['permissions'])
-			return $ch_r['permissions'];
-		else
-			return 0;
-	} else {
-		return false;	
-	}
-}
-
 function classloader ($class) {
     include_once "../classes/{$class}.class.inc";
 }

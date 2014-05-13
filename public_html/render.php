@@ -4,8 +4,8 @@
  currently supports png/svg/pdf
 */
 
-require("../globals/init.php");
-require("../globals/init_heraldry.inc");
+require("../include/init.php");
+require("../include/init_heraldry.inc");
 
 // if the format's not set, or is wrong, set it to svg
 if( $_GET[format] == "png" || $_GET[format] == "svg" || $_GET[format] == "pdf" )

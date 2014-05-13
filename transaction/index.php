@@ -1,7 +1,7 @@
 <?php
 
-require("../../globals/init.php");
-require("../../globals/init_heraldry.inc");
+require("../../include/init.php");
+require("../../include/init_heraldry.inc");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	if ($_GET[template] != "main" && md5($_COOKIE["check"]) == $_POST[cval]) {

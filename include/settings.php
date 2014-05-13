@@ -14,11 +14,11 @@ $setting['schema']="public";
 $setting['site_uri']="";
 $setting['title']="Uplink Heraldry Site";
 $setting['rpath']="";
-$setting['apath']="";
+$setting['apath']="/var/www/WebDev/Heraldry";
 $setting['tmppath']="";
 $setting['imgpath']="";
 $setting['imgcache']="";
-$setting['svgbase']=$setting[apath]."/svg_base";
+$setting['svgbase']=$setting['apath']."/svg_base";
 $setting['dev'] = 1;
 $setting['css'] = array("base");
 

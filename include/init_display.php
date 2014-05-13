@@ -2,7 +2,7 @@
 
 // TODO Check these
 
-require('Smarty-3.1.12/libs/Smarty.class.php');
+require('Smarty-3.1.16/libs/Smarty.class.php');
 $smartyBase = new Smarty();
 
 $smartyBase->setTemplateDir(Array($setting['apath'].'/smarty/templates',$setting['apath'].'/templates'));
