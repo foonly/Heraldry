@@ -4,17 +4,17 @@
 
 // Database Settings
 $setting['db']['type'] = "pgsql"; // mysql or pgsql
-$setting['db']['server'] = ""; // hostname or ip
+$setting['db']['server'] = "localhost"; // hostname or ip
 $setting['db']['port'] = 5432; // 3306 for mysql & 5432 for postgresql
-$setting['db']['user'] = "";
-$setting['db']['password'] = "";
-$setting['db']['name'] = "";
+$setting['db']['user'] = "postgres";
+$setting['db']['password'] = "mac1ntosh";
+$setting['db']['name'] = "heraldry";
 
 $setting['schema']="public";
 $setting['site_uri']="";
 $setting['title']="Uplink Heraldry Site";
 $setting['rpath']="";
-$setting['apath']="/var/www/WebDev/Heraldry";
+$setting['apath']="/var/www/web/dev/heraldry2";
 $setting['tmppath']="";
 $setting['imgpath']="";
 $setting['imgcache']="";
