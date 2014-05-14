@@ -1,4 +1,4 @@
-/globals/settings.php
+include/settings.php
 .idea
 *~
 .DS_Store
