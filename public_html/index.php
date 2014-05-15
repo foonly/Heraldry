@@ -6,15 +6,13 @@ define("SECTION", "main");
 require "../include/init.php";
 require "../include/init_display.php";
 
-$template = $_GET['template'];
-
-
 
 $sOutput = "";
-if (file_exists("../templates/{$template}.inc")) {
+$fullpath = "../templates/".SECTION."/{$template}.inc";
+if (file_exists($fullpath)) {
     // Save all output from called php template
     ob_start();
-    include "../templates/{$template}.inc" ;
+    include $fullpath ;
     $sOutput = ob_get_contents();
     ob_clean();
 }

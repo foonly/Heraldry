@@ -74,11 +74,26 @@ h4.header {
 img {
 	border: none;
 }
-
+.logoarea {
+	min-width: 300px;
+}
+/*header buttons*/
+.buttons {
+	
+}
+.buttons div {
+	min-width: 50px;
+}
+.right {
+	float: right;
+}
 /* menu */
 .menu {
-	
+	border-bottom: 2px solid red;
+	overflow: hidden;
 }
 .menuitem {
 	float: left;
+	padding: 6px;
+	margin-right: 5px;
 }

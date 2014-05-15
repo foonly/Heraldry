@@ -6,8 +6,6 @@ define("SECTION", "admin");
 require "../include/init.php";
 require "../include/init_display.php";
 
-$template = $_GET['template'];
-
 
 $sOutput = "";
 $fullpath = "../templates/".SECTION."/{$template}.inc";
