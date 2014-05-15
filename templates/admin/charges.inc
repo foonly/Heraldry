@@ -25,7 +25,7 @@
 				<b>{$c_group_r['name']}</b><br/>
 			";	
 		/*fetch charge names from selected group */
-		$query = "
+		$sql = "
 		select		id,
 					name,
 					charge_group,

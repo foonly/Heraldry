@@ -542,3 +542,10 @@
 [15-May-2014 13:06:29 UTC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../classes/Smarty_Internal_Write_File.class.inc' for inclusion (include_path='.:/var/www/functions:/var/www/include') in /var/www/web/dev/heraldry2/include/local_functions.php on line 27
 [15-May-2014 13:07:03 UTC] PHP Warning:  pg_query() expects parameter 1 to be resource, null given in /var/www/web/dev/heraldry2/templates/admin/charges.inc on line 12
 [15-May-2014 13:07:03 UTC] PHP Warning:  pg_fetch_array() expects parameter 1 to be resource, null given in /var/www/web/dev/heraldry2/templates/admin/charges.inc on line 22
+[15-May-2014 18:43:31 UTC] PHP Warning:  pg_query() expects parameter 1 to be resource, null given in /var/www/web/dev/heraldry2/templates/admin/charges.inc on line 12
+[15-May-2014 18:43:31 UTC] PHP Warning:  pg_fetch_array() expects parameter 1 to be resource, null given in /var/www/web/dev/heraldry2/templates/admin/charges.inc on line 22
+[15-May-2014 18:45:40 UTC] PHP Warning:  pg_query() expects parameter 1 to be resource, null given in /var/www/web/dev/heraldry2/templates/admin/charges.inc on line 12
+[15-May-2014 18:45:40 UTC] PHP Warning:  pg_fetch_array() expects parameter 1 to be resource, null given in /var/www/web/dev/heraldry2/templates/admin/charges.inc on line 22
+[15-May-2014 18:46:28 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /var/www/web/dev/heraldry2/templates/admin/charges.inc on line 22
+[15-May-2014 18:46:30 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /var/www/web/dev/heraldry2/templates/admin/charges.inc on line 22
+[15-May-2014 18:46:44 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /var/www/web/dev/heraldry2/templates/admin/charges.inc on line 22
