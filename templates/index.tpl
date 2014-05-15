@@ -8,6 +8,7 @@
         {foreach $setting.css as $s}
             <link href='css/{$s}.css' title='main' rel='stylesheet' type='text/css' media='screen,tv'/>
         {/foreach}
+        <link href='css/{$section}.css' title='main' rel='stylesheet' type='text/css' media='screen,tv'/>
         <link rel='shortcut icon' href='/img/favicon.png' type='image/x-icon' />
         
         <!-- analytics -->
@@ -25,8 +26,10 @@
     </head>
 
     <body>
-		<!-- include section specific index file -->
-        {include file="$section/index.tpl"}
+    	<div class='world'>
+			<!-- include section specific index file -->
+	        {include file="$section/index.tpl"}
+        </div>
     </body>
 </html>
     
