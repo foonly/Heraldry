@@ -12,7 +12,7 @@ spl_autoload_register('classloader');
 $today = time();
 
 $dsn = "{$setting['db']['type']}:dbname={$setting['db']['name']};host={$setting['db']['server']}";
-$db = new db($dsn,$setting['db']['user'],$setting['db']['password']);
+$GLOBALS['db'] = new db($dsn,$setting['db']['user'],$setting['db']['password']);
 
 if (strstr($_SERVER["HTTP_ACCEPT"],"application/xhtml+xml")) {
     define("CONTENTTYPE","application/xhtml+xml");

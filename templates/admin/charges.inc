@@ -1,5 +1,5 @@
 <?php
-	$query = "
+	$sql = "
 	select		id,
 				name,
 				so,
@@ -9,7 +9,7 @@
 	
 	";
 
-	$c_group = pg_query($conn, $query);
+	$query = $GLOBALS['db']->query($sql);
 	
 	
 	echo "
@@ -19,10 +19,10 @@
 		
 		
 	";
-	while ($c_group_r = pg_fetch_array($c_group)) {
+	while ($c_group_r = $query->fetch()) {
 	
 		echo "
-				<b>$c_group_r[name]</b><br/>
+				<b>{$c_group_r['name']}</b><br/>
 			";	
 		/*fetch charge names from selected group */
 		$query = "
@@ -31,15 +31,15 @@
 					charge_group,
 					license
 		from		charge_name
-		where		charge_group = $c_group_r[id]
-		
-		
+		where		charge_group = ?
 		";
-	
-		$charge = pg_query($conn, $query);
-		while ($charge_r = pg_fetch_array($charge)) {
+
+
+		$charge = $GLOBALS['db']->prepare($sql);
+        $charge->execute(array($c_group_r['id']));
+		while ($charge_r = $charge->fetch()) {
 			echo "
-				$charge_r[name]<br/>
+				{$charge_r['name']}<br/>
 			";	
 		}
 		echo "
@@ -47,4 +47,4 @@
 			
 		";
 	}
-?>
+
