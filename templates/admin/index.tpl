@@ -1,6 +1,7 @@
 
 <div class='ribbon'>
-	<header>
+	<div class='topbar'>
+		<header>
 		<div class='buttons right'>
 			<a href='index.php'><div>Main</div></a>
 		</div>
@@ -10,9 +11,11 @@
 		</div>
 	            
 	    {include file="{$section}/{$section}_menu.inc"}  
-	</header>
-	        
-	<section id='body'>
+		</header>
+	</div>
+	
+	<div class='textbody'>
+		<section id='body'>
 		
 			{if $template != ""}
 				{include file="$template.tpl"}
@@ -21,5 +24,8 @@
 			{/if}
 			<br style="clear: both;"/>
 		
-	</section>  
+		</section>  
+
+	</div>
+	  
 </div>

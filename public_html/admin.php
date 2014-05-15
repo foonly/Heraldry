@@ -17,7 +17,6 @@ if (file_exists($fullpath)) {
     ob_clean();
 }
 
-
 // Assign output to smarty
 $smarty->assign("scriptoutput",$sOutput);
 

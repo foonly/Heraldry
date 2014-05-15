@@ -76,6 +76,7 @@ img {
 }
 .logoarea {
 	min-width: 300px;
+	margin: 10px;
 }
 /*header buttons*/
 .buttons {
@@ -89,6 +90,7 @@ img {
 }
 /* menu */
 .menu {
+	border-top: 1px solid red;
 	border-bottom: 2px solid red;
 	overflow: hidden;
 }
@@ -96,4 +98,11 @@ img {
 	float: left;
 	padding: 6px;
 	margin-right: 5px;
+	font-size: 120%;
+}
+.topbar {
+	
+}
+.textbody {
+	margin: 10px;
 }
