@@ -17,5 +17,3 @@ $smartyBase->assign('user',$user);
 $smartyBase->assign('menu',$menu);
 
 $smarty = clone $smartyBase;
-
-?>

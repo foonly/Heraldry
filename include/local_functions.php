@@ -26,5 +26,3 @@ function invertHex ($hex) {
 function classloader ($class) {
     include_once "../classes/{$class}.class.inc";
 }
-
-?>

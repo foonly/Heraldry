@@ -19,4 +19,3 @@ class charge {
     private $langued;
     
 }
-?>

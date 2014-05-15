@@ -79,7 +79,3 @@ $charge = array(
         "col" => array(7,58,108),
         ),
     );
-
-
-
-?>

@@ -23,5 +23,3 @@ $setting['dev'] = 1;
 $setting['css'] = array("base");
 
 $locale="en";
-
-?>

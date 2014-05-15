@@ -326,5 +326,3 @@ function blazon ($coa) {
 	}
 	return ucfirst(trim(str_replace("_"," ",$ret))).".";
 }
-
-?>

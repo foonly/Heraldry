@@ -23,5 +23,3 @@ if (strstr($_SERVER["HTTP_ACCEPT"],"application/xhtml+xml")) {
 }
 
 echo header("Content-type: ".CONTENTTYPE."; charset=utf-8");
-
-?>
