@@ -25,30 +25,8 @@
     </head>
 
     <body>
-        <header>
-            <h1 id='title'>{$setting.title}</h1> 
-            <h2 id='subtitle'>{$setting.subtitle}</h2>
-            
-            <nav id='sections'>
-                {foreach $menu as $sec => $sub}
-                    <a href="/{$sec|urlencode}" class="menuitem">{$sec}</a>
-                {/foreach}
-            </nav>
-        </header>
-        
-        <section id='body'>
-            {if $template != ""}
-                {include file="$template.tpl"}
-            {else}
-                {$scriptoutput}
-            {/if}
-            <br style="clear: both;"/>
-        </section>  
-        <nav id='menu'>
-            {foreach $submenu as $sm => $name}
-                <a href='/{$section}/{$sm}' class="menuitem">{$name}</a>
-            {/foreach}
-        </nav>
+		<!-- include section specific index file -->
+        {include file="$section/index.tpl"}
     </body>
 </html>
     

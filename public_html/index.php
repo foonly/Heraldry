@@ -1,5 +1,8 @@
 <?php
 
+/*define the section*/
+define("SECTION", "main");
+
 require "../include/init.php";
 require "../include/init_display.php";
 
