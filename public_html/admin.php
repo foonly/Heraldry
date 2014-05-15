@@ -1,13 +1,14 @@
 <?php
 
+/*define the section*/
+define("SECTION", "admin");
+
 require "../include/init.php";
 require "../include/init_display.php";
 
-$template = $_GET['template'];
-
 
 $sOutput = "";
-$fullpath = "../templates/admin/{$template}.inc";
+$fullpath = "../templates/".SECTION."/{$template}.inc";
 if (file_exists($fullpath)) {
     // Save all output from called php template
     ob_start();

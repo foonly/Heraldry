@@ -8,6 +8,7 @@
         {foreach $setting.css as $s}
             <link href='css/{$s}.css' title='main' rel='stylesheet' type='text/css' media='screen,tv'/>
         {/foreach}
+        <link href='css/{$section}.css' title='main' rel='stylesheet' type='text/css' media='screen,tv'/>
         <link rel='shortcut icon' href='/img/favicon.png' type='image/x-icon' />
         
         <!-- analytics -->
@@ -25,30 +26,10 @@
     </head>
 
     <body>
-        <header>
-            <h1 id='title'>{$setting.title}</h1> 
-            <h2 id='subtitle'>{$setting.subtitle}</h2>
-            
-            <nav id='sections'>
-                {foreach $menu as $sec => $sub}
-                    <a href="/{$sec|urlencode}" class="menuitem">{$sec}</a>
-                {/foreach}
-            </nav>
-        </header>
-        
-        <section id='body'>
-            {if $template != ""}
-                {include file="$template.tpl"}
-            {else}
-                {$scriptoutput}
-            {/if}
-            <br style="clear: both;"/>
-        </section>  
-        <nav id='menu'>
-            {foreach $submenu as $sm => $name}
-                <a href='/{$section}/{$sm}' class="menuitem">{$name}</a>
-            {/foreach}
-        </nav>
+    	<div class='world'>
+			<!-- include section specific index file -->
+	        {include file="$section/index.tpl"}
+        </div>
     </body>
 </html>
     

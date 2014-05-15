@@ -1,8 +1,43 @@
+html {
+	height: 100%;
+}
 body {
-	background-color: #E7F1F7;
+	
+	margin: 0;
+	border: 0;
+	height: 100%;
 	font-size: 11pt;
 	font-family: Serif;
 }
+div.world {
+	background: #BFD8EF url('img/back.png'); /* fallback */
+	background: url('img/back.png'), -webkit-gradient(linear, left top, left bottom, from(#BFD8EF), to(#769CC1)); /* Saf4+, Chrome */
+	background: url('img/back.png'), -webkit-linear-gradient(top, #BFD8EF, #769CC1); /* Chrome 10+, Saf5.1+ */
+	background: url('img/back.png'),    -moz-linear-gradient(top, #BFD8EF, #769CC1); /* FF3.6+ */
+	background: url('img/back.png'),     -ms-linear-gradient(top, #BFD8EF, #769CC1); /* IE10 */
+	background: url('img/back.png'),      -o-linear-gradient(top, #BFD8EF, #769CC1); /* Opera 11.10+ */
+	background: url('img/back.png'),         linear-gradient(top, #BFD8EF, #769CC1); /* W3C */
+	
+	
+	position:relative; /* needed for footer positioning*/
+	margin:0 auto; /* center, not in IE5 */
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+	overflow:hidden;
+}
+div.ribbon {
+	width: 1000px;
+	min-height: 400px;
+	margin: auto;
+	margin-bottom: 45px;
+	overflow:hidden;
+	background: #f9f9f9;
+	border: 1px solid #000;
+	border-top: 0px solid #000;
+	border-radius: 0px 0px 8px 8px;
+}
+
 .clear {
 	clear: both;
 }
@@ -39,4 +74,35 @@ h4.header {
 img {
 	border: none;
 }
-
+.logoarea {
+	min-width: 300px;
+	margin: 10px;
+}
+/*header buttons*/
+.buttons {
+	
+}
+.buttons div {
+	min-width: 50px;
+}
+.right {
+	float: right;
+}
+/* menu */
+.menu {
+	border-top: 1px solid red;
+	border-bottom: 2px solid red;
+	overflow: hidden;
+}
+.menuitem {
+	float: left;
+	padding: 6px;
+	margin-right: 5px;
+	font-size: 120%;
+}
+.topbar {
+	
+}
+.textbody {
+	margin: 10px;
+}
