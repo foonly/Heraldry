@@ -59,6 +59,10 @@ hr {
 	border: 0px;
 	border-bottom: solid 1px #E2DB81;
 }
+.header {
+	font-size: 150%;
+	text-align: center;
+}
 h2.header {
 	text-align: center;
 	color: #ff8040;
@@ -105,4 +109,19 @@ img {
 }
 .textbody {
 	margin: 10px;
+}
+
+/*blog stuff*/
+.blogpost {
+	
+}
+.blogheader span {
+	font-size: 130%;
+	font-weight: bold;
+}
+.bloginfo {
+	font-size: 100%;
+}
+.blogtext {
+	margin-top: 10px;
 }
