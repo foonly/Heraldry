@@ -1,6 +1,11 @@
 <?php
-
-	$blogid = $_GET['blogid'];
+	
+	if (!$_GET['blogid']) {
+		$blogid = 0;
+	} else {
+		$blogid = $_GET['blogid'];
+	}
+	
 	
 	$sql = "
 	select		blog.id,
@@ -28,15 +33,42 @@
 			Edit News
 		</div>
 		
-		{$blog_r['header']}
 		
-		<table>
-			
-			
-	";
-	
-	echo "
+		<form action='transaction.php?t=blog_edit' method='post' id='blogsave'>
+		<input type='hidden' name='userid' value=''/>
+		<input type='hidden' name='blogid' value='$blogid'/>
+			<table>
+				<tr>
+					<th style='text-align: left;'>
+						Header:
+					</th>
+					<td>
+						<input type='text' name='header' value='{$blog_r['header']}'/>
+					</td>
+				</tr>
+				<tr>
+					<th colspan='2' style='text-align: left;'>
+						Content:
+					</th>
+					
+				</tr>
+				<tr>
+					
+					<td colspan='2'>
+						<textarea name='content' rows='4' cols='50'>{$blog_r['content']}</textarea> 
+					</td>
+				</tr>
+				<tr>
+					
+					<td colspan='2'>
+						<input type='submit' value='Save'/>
+					</td>
+				</tr>
 				
-		</table>
+	";
 		
+	echo "
+					
+			</table>
+		</form>
 		";

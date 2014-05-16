@@ -725,3 +725,11 @@
 	
 	
 	 in /var/www/include/foondb/db.class.php on line 61
+[16-May-2014 13:03:37 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: &quot;&quot; in /var/www/web/dev/heraldry2/templates/admin/blog_edit.inc on line 22
+[16-May-2014 13:22:13 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'SECTION/index.tpl' in 'index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[16-May-2014 13:23:49 UTC] PHP Warning:  include(transaction/blog_edit.inc) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/www/web/dev/heraldry2/public_html/transaction.php on line 23
+[16-May-2014 13:23:49 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'transaction/blog_edit.inc' for inclusion (include_path='.:/var/www/functions:/var/www/include') in /var/www/web/dev/heraldry2/public_html/transaction.php on line 23
+[16-May-2014 13:26:48 UTC] PHP Warning:  pg_query() expects parameter 1 to be resource, null given in /var/www/web/dev/heraldry2/transaction/blog_edit.inc on line 36
+[16-May-2014 13:28:10 UTC] PHP Warning:  pg_query() expects parameter 1 to be resource, null given in /var/www/web/dev/heraldry2/transaction/blog_edit.inc on line 36
+[16-May-2014 13:35:40 UTC] PHP Parse error:  syntax error, unexpected '{', expecting ')' in /var/www/web/dev/heraldry2/templates/admin/blog_list.inc on line 45
