@@ -62,6 +62,7 @@ hr {
 .header {
 	font-size: 150%;
 	text-align: center;
+	margin-bottom: 10px;
 }
 h2.header {
 	text-align: center;
@@ -101,8 +102,8 @@ img {
 .menuitem {
 	float: left;
 	padding: 6px;
-	margin-right: 5px;
-	font-size: 120%;
+	margin-right: 10px;
+	font-size: 140%;
 }
 .topbar {
 	
@@ -110,10 +111,28 @@ img {
 .textbody {
 	margin: 10px;
 }
-
+.list {
+	width: 100%;
+}
+.list td {
+	background: #f0f0f0;
+	padding: 3px;
+	text-align: center;
+}
+.list th.firstcell {
+	
+}
+.list td.firstcell {
+	text-align: left;
+}
 /*blog stuff*/
 .blogpost {
-	
+	background: #f0f0f0;
+	padding: 8px;
+	min-height: 85px;
+}
+.blogheader  {
+	border-bottom: 1px solid red;
 }
 .blogheader span {
 	font-size: 130%;

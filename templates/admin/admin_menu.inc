@@ -1,17 +1,17 @@
 <div class='menu'>
 	<a href='{$section}.php?template=main'>
 		<div class='menuitem'>
-			Menu 1
+			Main
 		</div>
 	</a>
 	<a href='{$section}.php?template=charges'>
 		<div class='menuitem'>
-			Menu 2
+			Charges
 		</div>
 	</a>
-	<a href='{$section}.php?template=main'>
+	<a href='{$section}.php?template=blog_list'>
 		<div class='menuitem'>
-			Menu 3
+			News
 		</div>
 	</a>
 </div>

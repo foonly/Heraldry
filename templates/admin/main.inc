@@ -1,1 +1,1 @@
-Text
+Info for admins on new things?

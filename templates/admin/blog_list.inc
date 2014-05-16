@@ -23,7 +23,22 @@
 			News
 		</div>
 		
-		
+		<table class='list'>
+			
+			<tr>
+				<th class='firstcell'>
+					Header
+				</th>
+				<th>
+					Poster
+				</th>
+				<th>
+					Comments
+				</th>
+				<th>
+					Date
+				</th>
+			</tr>
 	";
 	while ($blog_r = $query->fetch()) {
 	
@@ -48,20 +63,28 @@
 			
 		}
 		echo "
-			<div class='blogpost'>
-				<div class='blogheader'>
-					<span>{$blog_r['header']} by {$blog_r['fname']} {$blog_r['lname']}</span>
-					<div class='bloginfo right'>
-						Comments: $nrcom - 
-						{$blog_r['postdate']}
-					</div>
-				</div>
+			<tr>
+				<td class='firstcell'>
+					<a href='?template=blog_edit&amp;blogid={$blog_r['id']}'>{$blog_r['header']}</a>
+				</td>
+				<td>
+					{$blog_r['fname']} {$blog_r['lname']}
+				</td>
+				<td>
+					$nrcom
+				</td>
+				<td>
+					{$blog_r['postdate']}
+				</td>
 			";	
 		echo "
-				<div class='blogtext'>
-					{$blog_r['content']}
-				</div>
-			</div>
+				
+			</tr>
+		
 		";
 	}
-
+	echo "
+				
+		</table>
+		
+		";
