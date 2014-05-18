@@ -18,6 +18,17 @@
 	$query = $GLOBALS['db']->query($sql);
 	
 	$nrcom = 0;
+	
+	echo "
+		<div class='actions'>
+			<a href='?template=blog_edit&amp;blogid=0'>
+				<div>
+					Add News
+				</div>
+			</a>
+		</div>
+	";
+	
 	echo "
 		<div class='header'>
 			News
@@ -42,7 +53,7 @@
 	";
 	while ($blog_r = $query->fetch()) {
 	
-		$blog_date = date('Y-m-d', strtotime($blog_r['postdate']));
+		$blog_date = date('Y-m-d - H:m', strtotime($blog_r['postdate']));
 		/* */
 		$sql = "
 		select		id,

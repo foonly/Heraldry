@@ -6,6 +6,8 @@ define("SECTION", "main");
 require "../include/init.php";
 require "../include/init_display.php";
 
+/*include session for users*/
+require "../include/session.inc";
 
 $sOutput = "";
 $fullpath = "../templates/".SECTION."/{$template}.inc";

@@ -108,6 +108,31 @@ img {
 .topbar {
 	
 }
+
+/* actions buttons */
+.actions {
+	float: left;
+}
+.actions div {
+	background: #f0f0f0;
+	border: 1px solid #000;
+	border-radius: 8px;
+	padding: 5px;
+	font-size: 120%;
+}
+/*other buttons*/
+.cbutton {
+	width: 100px;
+	padding: 5px;
+	margin: auto;
+}
+.bstyle {
+	background: #f0f0f0;
+	border: 1px solid #000;
+	border-radius: 8px;
+	padding: 5px;
+	font-size: 120%;
+}
 .textbody {
 	margin: 10px;
 }
@@ -130,6 +155,7 @@ img {
 	background: #f0f0f0;
 	padding: 8px;
 	min-height: 85px;
+	margin-bottom: 10px;
 }
 .blogheader  {
 	border-bottom: 1px solid red;

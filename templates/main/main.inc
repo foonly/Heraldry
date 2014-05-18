@@ -10,14 +10,14 @@
 				
 	from		blog LEFT JOIN users
 	ON			blog.poster = users.id
-	order by	postdate
+	order by	postdate desc
 	
 	
 	";
 
 	$query = $GLOBALS['db']->query($sql);
 	
-	
+	$nrcom = 0; 
 	echo "
 		<div class='header'>
 			News
@@ -47,13 +47,16 @@
 			$nrcom += 1; 
 			
 		}
+		
+		$blog_date = date('Y-m-d - H:m', strtotime($blog_r['postdate']));
+		
 		echo "
 			<div class='blogpost'>
 				<div class='blogheader'>
 					<span>{$blog_r['header']} by {$blog_r['fname']} {$blog_r['lname']}</span>
 					<div class='bloginfo right'>
 						Comments: $nrcom - 
-						{$blog_r['postdate']}
+						{$blog_date}
 					</div>
 				</div>
 			";	
@@ -63,5 +66,6 @@
 				</div>
 			</div>
 		";
+		$nrcom = 0; 
 	}
 

@@ -4,6 +4,7 @@
 		<header>
 		<div class='buttons right'>
 			<a href='index.php'><div>Main</div></a>
+			{$_SESSION['s_id']}
 		</div>
 		<div class='logoarea'>
 			<a href='index.php'><h1 id='title'>{$setting.title}</h1></a>
