@@ -27,9 +27,9 @@
 
     <body>
     	<div class='world'>
-			<!-- include section specific index file -->
-	        {include file="$section/index.tpl"}
+		<!-- include section specific index file -->
+		{include file="$section/index.tpl"}
         </div>
     </body>
 </html>
-    
+

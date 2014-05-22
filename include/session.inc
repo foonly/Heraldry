@@ -1,13 +1,4 @@
 <?php
-/* user id */
-
-if ($_SESSION['s_id']) {
-	$s_id = $_SESSION['s_id'];
-	
-} else {
-	
-}
-
 
 /* query user info */
 /*
@@ -19,7 +10,7 @@ $sql = "
 				fname,
 				lname
 	from		users
-	where		id = $s_id
+	where		id = {$_SESSION['id']}
 ";
 
 $userlog = $GLOBALS['db']->query($sql);

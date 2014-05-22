@@ -9,6 +9,9 @@ require "../include/init_display.php";
 /*include session for users*/
 require "../include/session.inc";
 
+
+// include .php template, and write any potential output to $sOutput.
+// TODO this should probably be included somehow, otherwise code will duplicate. 
 $sOutput = "";
 $fullpath = "../templates/".SECTION."/{$template}.php";
 if (file_exists($fullpath)) {
