@@ -10,7 +10,7 @@ require "../include/init_display.php";
 require "../include/session.inc";
 
 $sOutput = "";
-$fullpath = "../templates/".SECTION."/{$template}.inc";
+$fullpath = "../templates/".SECTION."/{$template}.php";
 if (file_exists($fullpath)) {
     // Save all output from called php template
     ob_start();
