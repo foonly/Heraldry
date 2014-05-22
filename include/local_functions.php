@@ -23,6 +23,13 @@ function invertHex ($hex) {
 	return $he;
 }
 
-function classloader ($class) {
-    include_once "../classes/{$class}.class.inc";
+function classAutoLoader($class) {
+    if (!class_exists($class)) {
+        $class = strtolower($class);
+        @include "../classes/{$class}.class.php";
+    }
+}
+
+function isEmail($email) {
+    return filter_var($email, FILTER_VALIDATE_EMAIL);
 }

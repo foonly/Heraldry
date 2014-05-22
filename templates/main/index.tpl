@@ -3,7 +3,7 @@
 		<header>
 			<div class='buttons right'>
 				<a href='admin.php'><div>Admin</div></a>
-				{$s_id}
+				{$user->getId()}
 			</div>
 			<div class='logoarea'>
 				<a href='index.php'><h1 id='title'>{$setting.title}</h1></a>

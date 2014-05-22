@@ -3,12 +3,7 @@
 /*define the section*/
 define("SECTION", "admin");
 
-require "../include/init.php";
 require "../include/init_display.php";
-
-/*include session for users*/
-require "../include/session.inc";
-
 
 // include .php template, and write any potential output to $sOutput.
 // TODO this should probably be included somehow, otherwise code will duplicate. 
@@ -21,9 +16,11 @@ if (file_exists($fullpath)) {
     $sOutput = ob_get_contents();
     ob_clean();
 }
-
 // Assign output to smarty
 $smarty->assign("scriptoutput",$sOutput);
+
+// Include admin menu
+include "../templates/admin/admin_menu.php"; // TODO This should probably be placed somewhere else.
 
 // Check that called template is valid, index.tpl will later include it.
 if ($smarty->TemplateExists("{$template}.tpl") && $template != "index") {

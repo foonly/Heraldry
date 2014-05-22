@@ -3,15 +3,23 @@
 		<header>
 		<div class='buttons right'>
 			<a href='index.php'><div>Main</div></a>
-			{$session.id}
+			{$user->getId()}
 		</div>
 		<div class='logoarea'>
 			<a href='index.php'><h1 id='title'>{$setting.title}</h1></a>
 			<h2 id='subtitle'>{$section}</h2>
 		</div>
-	            
-	    {include file="{$section}/{$section}_menu.inc"}  
-		</header>
+        <div class='menu'>
+            {foreach $menu as $m}
+                <a href='{$section}.php?template={$m.tpl}'>
+                    <div class='menuitem'>
+                        {$m.name}
+                    </div>
+                </a>
+            {/foreach}
+        </div>
+
+        </header>
 	</div>
 	
 	<div class='textbody'>
