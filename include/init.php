@@ -26,7 +26,7 @@ if (empty($token) && !empty($_COOKIE['userToken'])) {
 $user = new user($token);
 if (isset($_POST['login']) && isset($_POST['passwd'])) {
     // Attempt a password login
-    if (!$user->login($_POST['login'],$_POST['passwd'],$_POST['sl'])) {
+    if (!$user->login($_POST['login'],$_POST['passwd'])) {
         // Handle failed login
         header("Location: //".$_SERVER["HTTP_HOST"]."/login?message=Login+Failed");
         exit();
