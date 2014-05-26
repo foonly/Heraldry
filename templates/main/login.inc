@@ -2,7 +2,7 @@
 echo "
 	<div class='login'>
 		<h2 class='header'>Login</h2>
-		<form action='transaction.php?t=check_login' method='post'>
+		<form action='' method='post'>
 	
 		<table class='login' align='center'>
 			<tr>
@@ -10,7 +10,7 @@ echo "
 					Email:
 				</td>
 				<td>
-					<input type='text' name='user'/>
+					<input type='text' name='login'/>
 				</td>
 			</tr>
 			<tr>
@@ -18,7 +18,7 @@ echo "
 					Password:
 				</td>
 				<td>
-					<input type='password' name='pass'/>
+					<input type='password' name='passwd'/>
 				</td>
 			</tr>
 			<tr>

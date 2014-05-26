@@ -22,7 +22,12 @@
 	while ($c_group_r = $query->fetch()) {
 	
 		echo "
-				<b>{$c_group_r['name']}</b><br/>
+				<a href='admin.php?template=charge_list&amp;groupid={$c_group_r['id']}'>
+						<div class='itemcont contbig'>
+							<div class='boxheader'>{$c_group_r['name']}</div>
+						</div>
+				</a>
+				
 			";	
 		/*fetch charge names from selected group */
 		$sql = "
@@ -38,12 +43,10 @@
 		$charge = $GLOBALS['db']->prepare($sql);
         $charge->execute(array($c_group_r['id']));
 		while ($charge_r = $charge->fetch()) {
-			echo "
-				{$charge_r['name']}<br/>
-			";	
+			
 		}
 		echo "
-			<br/>
+			
 			
 		";
 	}

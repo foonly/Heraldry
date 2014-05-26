@@ -170,3 +170,21 @@ img {
 .blogtext {
 	margin-top: 10px;
 }
+/* charge stuff */
+
+.itemcont {
+	border: 1px solid #000;
+	float: left;
+}
+.contbig {
+	width: 150px;
+	height: 75px;
+}
+.contsmall {
+	width: 100px;
+	height: 50px;
+}
+.boxheader {
+	font-weight: bold;
+	text-align: center;
+}
