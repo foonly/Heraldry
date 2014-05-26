@@ -34,7 +34,7 @@ echo "
 	
 	<div class='login'>
 		<h3 class='header'>Register a new user.</h3>
-		<a href='file.php?template=registration'><div class='cbutton bstyle'>Register</div></a>
+		<a href='/register'><div class='cbutton bstyle'>Register</div></a>
 	</div>
 	";
 ?>
