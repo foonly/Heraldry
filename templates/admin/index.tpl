@@ -10,7 +10,7 @@
 			<h2 id='subtitle'>{$section}</h2>
 		</div>
 	            
-	    {include file="{$section}/{$section}_menu.inc"}  
+	    {include file="{$section}/{$section}_menu.php"}  
 		</header>
 	</div>
 	

@@ -10,6 +10,11 @@ include "views.php";
 include "foondb/dbtable.class.php";
 include "foondb/dbview.class.php";
 
+/*define schema , maybe somewhere else?*/
+$schem = "public";
+$GLOBALS['db']->schema($schem);
+
+
 $keys = array_keys($views);
 
 for ($i = count($keys)-1;$i >= 0;$i--) {

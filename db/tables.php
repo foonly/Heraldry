@@ -14,7 +14,9 @@ $tables = array(
             "fname" => array("type"=>"character varying"),
             "lname" => array("type"=>"character varying"),
             "passwd" => array("type"=>"character varying"),
+            "created" => array("type"=>"timestamp without time zone"),
             "refresh" => array("type"=>"integer","default" => 30),
+            "lvl" => array("type"=>"integer","default" => 1),
         ),
         "index" => array( // List of indexes
             "indexname" => array("table"=>"tablename","definition"=>"count(foo)"),
