@@ -1,48 +1,45 @@
 <?php
+
+	$group_id = $_GET[groupid];
+
 	$sql = "
 	select		id,
 				name,
 				so,
 				cover
 	from		charge_group
-	
+	where		id = ?
 	
 	";
 
-	$query = $GLOBALS['db']->query($sql);
+	$group = $GLOBALS['db']->prepare($sql);
+	$group->execute(array($group_id));
 	
-	
+	$c_group_r = $group->fetch();
 	echo "
 		<div class='action_bar'>
 			<div class='path'>
 				<div class='pathitem'>
 					Charges
 				</div>
+				<div class='pathitem'>
+					{$c_group_r['name']}
+				</div>
 				
 			</div>
 			<div class='actions'>
-				<a href='?template=charge_full'>
+				<a href='?template=blog_edit&amp;blogid=0'>
 					<div>
-						Show full list
+						Add News
 					</div>
 				</a>
-				<div>
-					Do stuff 2
-				</div>
 			</div>
-		</div>
+		</div>	
 	";
 	
-	while ($c_group_r = $query->fetch()) {
 	
-		echo "
-				<a href='admin.php?template=charge_list&amp;groupid={$c_group_r['id']}'>
-						<div class='itemcont contbig'>
-							<div class='boxheader'>{$c_group_r['name']}</div>
-						</div>
-				</a>
-				
-			";	
+	
+			
 		/*fetch charge names from selected group */
 		$sql = "
 		select		id,
@@ -57,11 +54,14 @@
 		$charge = $GLOBALS['db']->prepare($sql);
         $charge->execute(array($c_group_r['id']));
 		while ($charge_r = $charge->fetch()) {
-			
+			echo "
+					<a href='admin.php?template=charge_var&amp;chargeid={$charge_r['id']}'>
+						<div class='itemcont contsmall'>
+							<div class='boxheader'>{$charge_r['name']}</div>
+						</div>
+					</a>
+			";	
 		}
-		echo "
-			
-			
-		";
-	}
+		
+	
 
