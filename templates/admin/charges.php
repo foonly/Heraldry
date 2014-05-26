@@ -13,12 +13,26 @@
 	
 	
 	echo "
-		<div class='header'>
-			Charges
+		<div class='action_bar'>
+			<div class='path'>
+				<div class='pathitem'>
+					Charges
+				</div>
+				
+			</div>
+			<div class='actions'>
+				<a href='?template=charge_full'>
+					<div>
+						Show full list
+					</div>
+				</a>
+				<div>
+					Do stuff 2
+				</div>
+			</div>
 		</div>
-		
-		
 	";
+	
 	while ($c_group_r = $query->fetch()) {
 	
 		echo "

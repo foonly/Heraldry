@@ -17,12 +17,26 @@
 	
 	$c_group_r = $group->fetch();
 	echo "
-		<div class='header'>
-			{$c_group_r['name']}
-		</div>
-		
-		
+		<div class='action_bar'>
+			<div class='path'>
+				<div class='pathitem'>
+					Charges
+				</div>
+				<div class='pathitem'>
+					{$c_group_r['name']}
+				</div>
+				
+			</div>
+			<div class='actions'>
+				<a href='?template=blog_edit&amp;blogid=0'>
+					<div>
+						Add News
+					</div>
+				</a>
+			</div>
+		</div>	
 	";
+	
 	
 	
 			

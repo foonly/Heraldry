@@ -14,4 +14,9 @@
 			News
 		</div>
 	</a>
+	<a href='{$section}.php?template=user_list'>
+		<div class='menuitem'>
+			Users
+		</div>
+	</a>
 </div>

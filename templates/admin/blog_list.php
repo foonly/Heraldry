@@ -20,12 +20,20 @@
 	$nrcom = 0;
 	
 	echo "
-		<div class='actions'>
-			<a href='?template=blog_edit&amp;blogid=0'>
-				<div>
-					Add News
+		<div class='action_bar'>
+			<div class='path'>
+				<div class='pathitem'>
+					News
 				</div>
-			</a>
+				
+			</div>
+			<div class='actions'>
+				<a href='?template=blog_edit&amp;blogid=0'>
+					<div>
+						Add News
+					</div>
+				</a>
+			</div>
 		</div>
 	";
 	
