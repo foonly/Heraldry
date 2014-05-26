@@ -22,10 +22,11 @@
 	echo "
 		<div class='action_bar'>
 			<div class='path'>
-				<div class='pathitem'>
-					News
-				</div>
-				
+				<a href='?template=blog_list'>
+					<div class='pathitem'>
+						News
+					</div>
+				</a>
 			</div>
 			<div class='actions'>
 				<a href='?template=blog_edit&amp;blogid=0'>

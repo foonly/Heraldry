@@ -19,6 +19,27 @@
 		$charge = $GLOBALS['db']->prepare($sql);
         $charge->execute(array());
 	
+	echo "
+		<div class='action_bar'>
+			<div class='path'>
+				<a href='?template=charge_full'>
+					<div class='pathitem'>
+						Charge full list
+					</div>
+				</a>
+				
+			</div>
+			<div class='actions'>
+				<a href='?template=blog_edit&amp;blogid=0'>
+					<div>
+						Add News
+					</div>
+				</a>
+			</div>
+		</div>	
+	";
+	
+	
 		while ($charge_r = $charge->fetch()) {
 			
 		

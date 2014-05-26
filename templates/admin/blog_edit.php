@@ -29,10 +29,18 @@
 	$blog_r = $query->fetch();
 	
 	echo "
-		<div class='header'>
-			Edit News
+		<div class='action_bar'>
+			<div class='path'>
+				<a href='?template=blog_edit&amp;blogid=$blogid'>
+					<div class='pathitem'>
+						News Edit
+					</div>
+				</a>
+			</div>
+			<div class='actions'>
+				
+			</div>
 		</div>
-		
 		
 		<form action='transaction.php?t=blog_edit' method='post' id='blogsave'>
 		<input type='hidden' name='userid' value=''/>

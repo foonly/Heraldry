@@ -19,12 +19,17 @@
 	echo "
 		<div class='action_bar'>
 			<div class='path'>
-				<div class='pathitem'>
-					Charges
-				</div>
-				<div class='pathitem'>
-					{$c_group_r['name']}
-				</div>
+				<a href='?template=charges'>
+					<div class='pathitem'>
+						Charges
+					</div>
+				</a>
+				<a href='?template=charge_list&amp;groupid=$group_id'>
+					<div class='pathitem'>
+						{$c_group_r['name']}
+					</div>
+				</a>
+				
 				
 			</div>
 			<div class='actions'>
