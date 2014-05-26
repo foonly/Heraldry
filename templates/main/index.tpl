@@ -11,7 +11,7 @@
 			</div>
 			
 		            
-		    {include file="{$section}/{$section}_menu.inc"}  
+		    {include file="{$section}/{$section}_menu.php"}  
 		</header>
 	</div>
 	

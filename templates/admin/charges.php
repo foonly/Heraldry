@@ -15,9 +15,11 @@
 	echo "
 		<div class='action_bar'>
 			<div class='path'>
-				<div class='pathitem'>
-					Charges
-				</div>
+				<a href='?template=charges'>
+					<div class='pathitem'>
+						Charges
+					</div>
+				</a>
 				
 			</div>
 			<div class='actions'>
