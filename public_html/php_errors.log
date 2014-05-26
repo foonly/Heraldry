@@ -1,0 +1,22 @@
+[26-May-2014 20:16:12 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[26-May-2014 20:16:12 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[26-May-2014 20:16:12 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[26-May-2014 20:16:17 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[26-May-2014 20:16:19 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[26-May-2014 20:16:23 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[26-May-2014 20:16:26 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[26-May-2014 20:16:27 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[26-May-2014 20:16:29 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[26-May-2014 20:16:35 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[26-May-2014 20:16:38 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127

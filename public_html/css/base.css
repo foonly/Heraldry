@@ -85,11 +85,14 @@ img {
 	margin: 10px;
 }
 /*header buttons*/
-.buttons {
+.sections {
 	
 }
-.buttons div {
-	min-width: 50px;
+.sections div.frame {
+	min-width: 100px;
+	min-height: 75px;
+	border: 1px solid #000;
+	margin: 5px;
 }
 .right {
 	float: right;
