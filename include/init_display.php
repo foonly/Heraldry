@@ -1,6 +1,7 @@
 <?php
 
 require_once "init.php";
+$user->setCookie(); // Called here because non-display templates can't set cookies.
 
 require 'Smarty-3.1.16/libs/Smarty.class.php';
 $smartyBase = new Smarty();
