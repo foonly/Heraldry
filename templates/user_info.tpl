@@ -1,7 +1,7 @@
 <div>
-	{$user->getId()}
+	Account
 </div>
 <div>
-	Logged in as: 
+	Logged in as:<br/>
 	{$user->getName()}
 </div>
