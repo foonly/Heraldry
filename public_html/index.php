@@ -20,6 +20,10 @@ if (file_exists($fullpath)) {
 // Assign output to smarty
 $smarty->assign("scriptoutput",$sOutput);
 
+// Include main menu
+include "../templates/main/main_menu.php"; // TODO This should probably be placed somewhere else.
+
+
 // Check that called template is valid, index.tpl will later include it.
 if ($smarty->TemplateExists("{$template}.tpl") && $template != "index") {
     $smarty->assign("template",$template);

@@ -2,9 +2,9 @@
 	<div class='topbar'>
 		<header>
 			<div class='sections right'>
-				<a href='admin.php'>
+				<a href='index.php'>
 					<div class='frame'>
-						Admin
+						Main
 					</div>
 				</a>
 				
@@ -16,11 +16,11 @@
 					</div>
 				</a>
 			</div>
-			<div class='logoarea'>
-				<a href='index.php'><h1 id='title'>{$setting.title}</h1></a>
-				<h2 id='subtitle'>{$section}</h2>
-			</div>
-		    <div class='menu'>
+		<div class='logoarea'>
+			<a href='index.php'><h1 id='title'>{$setting.title}</h1></a>
+			<h2 id='subtitle'>{$section}</h2>
+		</div>
+        <div class='menu'>
             {foreach $menu as $m}
                 <a href='{$section}.php?template={$m.tpl}'>
                     <div class='menuitem'>
@@ -28,18 +28,22 @@
                     </div>
                 </a>
             {/foreach}
-        	</div>
-		</header>
+        </div>
+
+        </header>
 	</div>
 	
-	<div class='textbody'>    
+	<div class='textbody'>
 		<section id='body'>
 			{if $template != ""}
-					{include file="$template.tpl"}
-				{else}
-					{$scriptoutput}
-				{/if}
+				{include file="$template.tpl"}
+			{else}
+				{$scriptoutput}
+			{/if}
 			<br style="clear: both;"/>
+		
 		</section>  
+
 	</div>
+	  
 </div>
