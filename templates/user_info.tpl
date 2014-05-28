@@ -2,6 +2,8 @@
 	Account
 </div>
 <div>
-	Logged in as:<br/>
+	User:<br/>
 	{$user->getName()}
+	<a href='/login'>Login</a>
+	
 </div>

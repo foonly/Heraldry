@@ -20,3 +20,209 @@
   thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
 [26-May-2014 20:16:38 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template file 'main/main_menu.inc' in 'main/index.tpl' <-- 
   thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatebase.php on line 127
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:05:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;submitter&quot; does not exist
+LINE 11:      submitter
+              ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
+[28-May-2014 06:13:47 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/var/www/web/dev/heraldry2/templates/user_info.tpl"  on line 7 "{if $user->getId() = 0}"  - Unexpected " = ", expected one of: "}" <-- 
+  thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 7

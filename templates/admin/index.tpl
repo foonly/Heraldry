@@ -1,10 +1,21 @@
 <div class='ribbon'>
 	<div class='topbar'>
 		<header>
-		<div class='buttons right'>
-			<a href='index.php'><div>Main</div></a>
-			{$user->getId()}
-		</div>
+			<div class='sections right'>
+				<a href='index.php'>
+					<div class='frame'>
+						Main
+					</div>
+				</a>
+				
+			</div>
+			<div class='sections right'>
+				<a href='account.php'>
+					<div class='frame'>
+						{include file="user_info.tpl"}
+					</div>
+				</a>
+			</div>
 		<div class='logoarea'>
 			<a href='index.php'><h1 id='title'>{$setting.title}</h1></a>
 			<h2 id='subtitle'>{$section}</h2>
