@@ -226,3 +226,5 @@ LINE 11:      submitter
               ^ in /var/www/web/dev/heraldry2/templates/admin/charge_full.php on line 99
 [28-May-2014 06:13:47 UTC] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/var/www/web/dev/heraldry2/templates/user_info.tpl"  on line 7 "{if $user->getId() = 0}"  - Unexpected " = ", expected one of: "}" <-- 
   thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 7
+[28-May-2014 09:48:05 UTC] PHP Warning:  include(../templates/account/sccount_menu.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/www/web/dev/heraldry2/public_html/account.php on line 23
+[28-May-2014 09:48:05 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../templates/account/sccount_menu.php' for inclusion (include_path='.:/var/www/functions:/var/www/include') in /var/www/web/dev/heraldry2/public_html/account.php on line 23

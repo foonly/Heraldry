@@ -11,6 +11,9 @@ require "../include/runTemplate.php";
 // Assign output to smarty
 $smarty->assign("scriptoutput",$sOutput);
 
+// Include main menu
+include "../templates/main/main_menu.php"; // TODO This should probably be placed somewhere else.
+
 $smarty->display("index.tpl");
 
 
