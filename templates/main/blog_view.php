@@ -31,9 +31,31 @@
 	$blog_date = date('Y-m-d - H:m', strtotime($blog_r['postdate']));
 	
 	echo "
-		<div class='header'>
-			{$blog_r['header']}
-		</div>
+		<div class='action_bar'>
+			<div class='path'>
+				<a href='?template=main'>
+					<div class='pathitem'>
+						News
+					</div>
+				</a>
+				<a href='?template=blog_view'>
+					<div class='pathitem'>
+						{$blog_r['header']}
+					</div>
+				</a>
+			</div>
+			<div class='actions'>
+				<a href='?template=blog_edit&amp;blogid=0'>
+					<div>
+						Add News
+					</div>
+				</a>
+			</div>
+		</div>	
+	";
+	
+	echo "
+		
 		
 		
 			<div class='blogpost'>

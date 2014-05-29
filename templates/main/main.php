@@ -19,11 +19,23 @@
 	
 	$nrcom = 0; 
 	echo "
-		<div class='header'>
-			News
-		</div>
-		
-		
+		<div class='action_bar'>
+			<div class='path'>
+				<a href='?template=main'>
+					<div class='pathitem'>
+						News
+					</div>
+				</a>
+				
+			</div>
+			<div class='actions'>
+				<a href='?template=blog_edit&amp;blogid=0'>
+					<div>
+						Add News
+					</div>
+				</a>
+			</div>
+		</div>	
 	";
 	while ($blog_r = $query->fetch()) {
 	
@@ -53,7 +65,9 @@
 		echo "
 			<div class='blogpost'>
 				<div class='blogheader'>
-					<span>{$blog_r['header']} by {$blog_r['fname']} {$blog_r['lname']}</span>
+					<a href='?template=blog_view&amp;blogid={$blog_r['id']}'>
+						<span>{$blog_r['header']} by {$blog_r['fname']} {$blog_r['lname']}</span>
+					</a>
 					<div class='bloginfo right'>
 						Comments: $nrcom - 
 						{$blog_date}

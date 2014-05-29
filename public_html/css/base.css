@@ -190,6 +190,19 @@ img {
 	font-size: 130%;
 	font-weight: bold;
 }
+.blogcomment {
+	background: #f0f0f0;
+	padding: 8px;
+	min-height: 85px;
+	margin-bottom: 10px;
+}
+.commentheader  {
+	border-bottom: 1px solid red;
+}
+.commentheader span {
+	font-size: 110%;
+	font-weight: bold;
+}
 .bloginfo {
 	font-size: 100%;
 }
