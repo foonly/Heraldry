@@ -93,6 +93,16 @@ img {
 	min-height: 75px;
 	border: 1px solid #000;
 	margin: 5px;
+	
+}
+
+.framehead {
+	text-align: center;
+	background: #f0f0f0;
+}
+.framebody {
+	padding: 3px;
+	
 }
 .right {
 	float: right;

@@ -1,7 +1,7 @@
 <?php
 
 $menu = array(
-    array("tpl"=>"main","name"=>"Main"),
+    array("tpl"=>"main","name"=>"News"),
     array("tpl"=>"coat","name"=>"Coat of Arms"),
 );
 

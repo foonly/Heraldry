@@ -111,7 +111,7 @@ function renderCharge ($id,$basecol="",$heading=0,$details=Array()) {
 						body,
 						proper,
 						details
-			from		$setting[schema].charges
+			from		$setting[schema].charge_var
 			where		id = $id
 			";
 		$ch_r = pg_get($conn,$query);

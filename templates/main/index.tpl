@@ -4,7 +4,12 @@
 			<div class='sections right'>
 				<a href='admin.php'>
 					<div class='frame'>
-						Admin
+						<div class='framehead'>
+							Admin
+						</div>
+						<div class='framebody'>
+							Admin Section
+						</div>
 					</div>
 				</a>
 				

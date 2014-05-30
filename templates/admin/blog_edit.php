@@ -31,6 +31,11 @@
 	echo "
 		<div class='action_bar'>
 			<div class='path'>
+				<a href='?template=blog_list'>
+					<div class='pathitem'>
+						News
+					</div>
+				</a>
 				<a href='?template=blog_edit&amp;blogid=$blogid'>
 					<div class='pathitem'>
 						News Edit
@@ -43,7 +48,7 @@
 		</div>
 		
 		<form action='transaction.php?t=blog_edit' method='post' id='blogsave'>
-		<input type='hidden' name='userid' value=''/>
+		<input type='hidden' name='userid' value='{$user->getId()}'/>
 		<input type='hidden' name='blogid' value='$blogid'/>
 			<table>
 				<tr>

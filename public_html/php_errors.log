@@ -228,3 +228,652 @@ LINE 11:      submitter
   thrown in /var/www/functions/Smarty-3.1.16/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 7
 [28-May-2014 09:48:05 UTC] PHP Warning:  include(../templates/account/sccount_menu.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/www/web/dev/heraldry2/public_html/account.php on line 23
 [28-May-2014 09:48:05 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../templates/account/sccount_menu.php' for inclusion (include_path='.:/var/www/functions:/var/www/include') in /var/www/web/dev/heraldry2/public_html/account.php on line 23
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:07 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:08 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:09 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:38 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:39 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:06:40 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:14 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:15 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 08:10:16 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 90
+[30-May-2014 12:29:36 UTC] PHP Warning:  PDO::query() [<a href='pdo.query'>pdo.query</a>]: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near &quot;c941ba1&quot;
+LINE 11:    8c941ba1-c3d2-46b5-aa1b-0e590dca5a48
+             ^ in /var/www/include/foondb/db.class.php on line 56
+[30-May-2014 12:29:36 UTC] Query failed:
+
+			insert into blog (
+			header,
+			content,
+			postdate,
+			poster
+			) values (
+			'Test 3',
+			'Testing the news editing',
+			now(),
+			8c941ba1-c3d2-46b5-aa1b-0e590dca5a48
+			)
+		
+[30-May-2014 12:29:36 UTC] PHP Fatal error:  Query failed:
+
+			insert into blog (
+			header,
+			content,
+			postdate,
+			poster
+			) values (
+			'Test 3',
+			'Testing the news editing',
+			now(),
+			8c941ba1-c3d2-46b5-aa1b-0e590dca5a48
+			)
+		 in /var/www/include/foondb/db.class.php on line 61
+[30-May-2014 12:52:33 UTC] PHP Warning:  include(../transaction/user_edit.inc) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /var/www/web/dev/heraldry2/public_html/transaction.php on line 23
+[30-May-2014 12:52:33 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../transaction/user_edit.inc' for inclusion (include_path='.:/var/www/functions:/var/www/include') in /var/www/web/dev/heraldry2/public_html/transaction.php on line 23
+[30-May-2014 12:52:59 UTC] PHP Warning:  PDO::query() [<a href='pdo.query'>pdo.query</a>]: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near &quot;c941ba1&quot;
+LINE 8:    where id=8c941ba1-c3d2-46b5-aa1b-0e590dca5a48
+                     ^ in /var/www/include/foondb/db.class.php on line 56
+[30-May-2014 12:52:59 UTC] Query failed:
+
+			update users
+			set		email='',
+					fname='Tommy',
+					lname='Schönberg',
+					lvl=1
+					
+			where	id=8c941ba1-c3d2-46b5-aa1b-0e590dca5a48
+		
+[30-May-2014 12:52:59 UTC] PHP Fatal error:  Query failed:
+
+			update users
+			set		email='',
+					fname='Tommy',
+					lname='Schönberg',
+					lvl=1
+					
+			where	id=8c941ba1-c3d2-46b5-aa1b-0e590dca5a48
+		 in /var/www/include/foondb/db.class.php on line 61
+[30-May-2014 12:54:12 UTC] PHP Warning:  PDO::query() [<a href='pdo.query'>pdo.query</a>]: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near &quot;c941ba1&quot;
+LINE 8:    where id=8c941ba1-c3d2-46b5-aa1b-0e590dca5a48
+                     ^ in /var/www/include/foondb/db.class.php on line 56
+[30-May-2014 12:54:12 UTC] Query failed:
+
+			update users
+			set		email='',
+					fname='Tommy',
+					lname='Schönberg',
+					lvl=1
+					
+			where	id=8c941ba1-c3d2-46b5-aa1b-0e590dca5a48
+		
+[30-May-2014 12:54:12 UTC] PHP Fatal error:  Query failed:
+
+			update users
+			set		email='',
+					fname='Tommy',
+					lname='Schönberg',
+					lvl=1
+					
+			where	id=8c941ba1-c3d2-46b5-aa1b-0e590dca5a48
+		 in /var/www/include/foondb/db.class.php on line 61

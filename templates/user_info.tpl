@@ -1,9 +1,14 @@
-<div>
+
+{if $user->getId()}
+
+<div class='framehead'>
 	Account
 </div>
-<div>
+<div class='framebody'>
 	User:<br/>
 	{$user->getName()}
-	<a href='/login'>Login</a>
-	
 </div>
+
+{else}
+	<a href='/login'>Login</a>
+{/if}

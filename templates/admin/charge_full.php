@@ -53,6 +53,8 @@
 		<table class='list'>
 			<tr>
 						<th>
+						</th>
+						<th>
 							Variation
 						</th>
 						<th>
@@ -100,6 +102,9 @@
 		while ($chargev_r = $chargev->fetch()) {
 			echo "
 					<tr>
+						<td>
+							<img src='$setting[rpath]/public_html/render.php?type=charge&amp;size=50&amp;id={$chargev_r['id']}&amp;format=png' alt='bild'/>
+						</td>
 						<td>
 							{$chargev_r['variation']}
 						</td>

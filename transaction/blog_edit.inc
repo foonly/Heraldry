@@ -1,5 +1,5 @@
 <?php
-
+$userid = $_POST['userid'];
 $blogid = $_POST['blogid'];
 $header = $_POST['header'];
 $content = $_POST['content'];
@@ -26,11 +26,13 @@ if ($blogid > 0) {
 			insert into blog (
 			header,
 			content,
-			postdate
+			postdate,
+			poster
 			) values (
 			'$header',
 			'$content',
-			now()
+			now(),
+			'$userid'
 			)
 		";
 	$query = $GLOBALS['db']->query($sql);
