@@ -45,9 +45,9 @@
 				</a>
 			</div>
 			<div class='actions'>
-				<a href='?template=blog_edit&amp;blogid=0'>
+				<a href='?template=blog_com&amp;blogid={$blog_r['id']}'>
 					<div>
-						Add News
+						Comment
 					</div>
 				</a>
 			</div>
@@ -101,7 +101,7 @@
 			
 		
 		
-		$blog_date = date('Y-m-d - H:m', strtotime($comment_r['postdate']));
+		$blog_date = date('Y-m-d - H:i', strtotime($comment_r['postdate']));
 		
 		echo "
 			<div class='blogcomment'>

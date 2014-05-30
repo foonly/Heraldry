@@ -58,7 +58,7 @@
 	";
 	while ($user_r = $query->fetch()) {
 	
-		$date = date('Y-m-d - H:m', strtotime($user_r['created']));
+		$date = date('Y-m-d - H:i', strtotime($user_r['created']));
 		
 		echo "
 			<tr>

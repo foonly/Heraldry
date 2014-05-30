@@ -60,7 +60,7 @@
 				</tr>
 				<tr>
 					<th style='text-align: left;'>
-						Fname:
+						First:
 					</th>
 					<td>
 						<input type='text' name='fname' value='{$user_r['fname']}'/>
@@ -68,7 +68,7 @@
 				</tr>
 				<tr>
 					<th style='text-align: left;'>
-						lname:
+						Last:
 					</th>
 					<td>
 						<input type='text' name='lname' value='{$user_r['lname']}'/>
@@ -76,7 +76,7 @@
 				</tr>
 				<tr>
 					<th style='text-align: left;'>
-						lvl:
+						Level:
 					</th>
 					<td>
 						<input type='text' name='lvl' value='{$user_r['lvl']}'/>
