@@ -5,7 +5,8 @@ php_flag html_errors on
 
 Options +FollowSymLinks
 RewriteEngine On
-RewriteRule ^([0-9A-Za-z_]+)\.do  transaction.php?template=$1 [QSA]
+RewriteCond %{REQUEST_METHOD} =POST
+RewriteRule ^([0-9A-Za-z_]+)  transaction.php?template=$1 [QSA]
 RewriteRule ^admin(/([0-9A-Za-z_]+))? admin.php?template=$2 [QSA]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([0-9A-Za-z]+)(_([0-9]+))?  /index.php?template=$1&id=$3 [QSA]
