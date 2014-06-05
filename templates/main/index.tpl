@@ -2,7 +2,7 @@
 	<div class='topbar'>
 		<header>
 			<div class='sections right'>
-				<a href='admin.php'>
+				<a href='/admin'>
 					<div class='frame'>
 						<div class='framehead'>
 							Admin
@@ -15,7 +15,7 @@
 				
 			</div>
 			<div class='sections right'>
-				<a href='account.php'>
+				<a href='/account'>
 					<div class='frame'>
 						{include file="user_info.tpl"}
 					</div>
@@ -27,7 +27,7 @@
 			</div>
 		    <div class='menu'>
             {foreach $menu as $m}
-                <a href='{$section}.php?template={$m.tpl}'>
+                <a href='/{$m.tpl}'>
                     <div class='menuitem'>
                         {$m.name}
                     </div>

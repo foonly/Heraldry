@@ -6,9 +6,9 @@
         <title>{$setting.title}</title>
         <link href='/oxygen-fontfacekit/stylesheet.css' title='main' rel='stylesheet' type='text/css'/>
         {foreach $setting.css as $s}
-            <link href='css/{$s}.css' title='main' rel='stylesheet' type='text/css' media='screen,tv'/>
+            <link href='/css/{$s}.css' title='main' rel='stylesheet' type='text/css' media='screen,tv'/>
         {/foreach}
-        <link href='css/{$section}.css' title='main' rel='stylesheet' type='text/css' media='screen,tv'/>
+        <link href='/css/{$section}.css' title='main' rel='stylesheet' type='text/css' media='screen,tv'/>
         <link rel='shortcut icon' href='/img/favicon.png' type='image/x-icon' />
         
         <!-- analytics -->

@@ -1,6 +1,9 @@
 <?php
 
-
+if ($_SERVER["REQUEST_METHOD"] !== "POST") {
+    echo "Wrong method, use POST";
+    exit();
+}
 
 
 require "../include/init.php";
