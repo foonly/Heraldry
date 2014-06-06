@@ -84,26 +84,24 @@ img {
 	min-width: 300px;
 	margin: 10px;
 }
-/*header buttons*/
-.sections {
-	
+/* user info bar */
+.userinfo {
+	width: 100%;
+	min-height: 25px;
+	background: #000;
+	color: #fff;
+	overflow: hidden;
 }
-.sections div.frame {
+.frame {
 	min-width: 100px;
-	min-height: 75px;
-	border: 1px solid #000;
-	margin: 5px;
 	
+	border-left: 1px solid #f0f0f0;
+	padding: 5px;
+	float: right;
 }
+/*header buttons*/
 
-.framehead {
-	text-align: center;
-	background: #f0f0f0;
-}
-.framebody {
-	padding: 3px;
-	
-}
+
 .right {
 	float: right;
 }

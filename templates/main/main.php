@@ -60,7 +60,7 @@
 			
 		}
 		
-		$blog_date = date('Y-m-d - H:m', strtotime($blog_r['postdate']));
+		$blog_date = date('Y-m-d - H:i', strtotime($blog_r['postdate']));
 		
 		echo "
 			<div class='blogpost'>

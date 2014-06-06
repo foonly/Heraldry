@@ -1,26 +1,8 @@
 <div class='ribbon'>
+	{include file="user_info.tpl"}
 	<div class='topbar'>
 		<header>
-			<div class='sections right'>
-				<a href='/admin'>
-					<div class='frame'>
-						<div class='framehead'>
-							Admin
-						</div>
-						<div class='framebody'>
-							Admin Section
-						</div>
-					</div>
-				</a>
-				
-			</div>
-			<div class='sections right'>
-				<a href='/account'>
-					<div class='frame'>
-						{include file="user_info.tpl"}
-					</div>
-				</a>
-			</div>
+			
 			<div class='logoarea'>
 				<a href='index.php'><h1 id='title'>{$setting.title}</h1></a>
 				<h2 id='subtitle'>{$section}</h2>
