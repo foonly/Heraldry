@@ -105,16 +105,18 @@ function renderCharge ($id,$basecol="",$heading=0,$details=Array()) {
 	$size=100;
 
 	if ($id) {
-		$query = "
+		$sql = "
 			select	height,
 						width,
 						body,
 						proper,
 						details
 			from		$setting[schema].charge_var
-			where		id = $id
+			where		id = ?
 			";
-		$ch_r = pg_get($conn,$query);
+		$ch_r = $GLOBALS['db']->prepare($sql);
+        $ch_r->execute(array($id));
+		
 		$th = 0;
 		$tw = 0;
 		$diff = abs($ch_r[width] - $ch_r[height]) / 2;

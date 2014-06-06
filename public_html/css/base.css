@@ -92,6 +92,13 @@ img {
 	color: #fff;
 	overflow: hidden;
 }
+.userinfo a {
+	color: #fff;
+	
+}
+.userinfo a:hover {
+	color: #ff8040;
+}
 .frame {
 	min-width: 100px;
 	
