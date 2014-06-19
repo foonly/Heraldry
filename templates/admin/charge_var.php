@@ -1,4 +1,22 @@
 <?php
+	/*fetch charge group */
+	$group_id = $_GET[groupid];
+
+	$sql = "
+	select		id,
+				name,
+				so,
+				cover
+	from		charge_group
+	where		id = ?
+	
+	";
+
+	$group = $GLOBALS['db']->prepare($sql);
+	$group->execute(array($group_id));
+	
+	$c_group_r = $group->fetch();
+	
 
 	$charge_id = $_GET[chargeid];
 
@@ -17,6 +35,33 @@
         $charge->execute(array($charge_id));
 	
 		$charge_r = $charge->fetch();
+		
+		echo "
+		<div class='action_bar'>
+			<div class='path'>
+				<a href='?template=charges'>
+					<div class='pathitem'>
+						Charges
+					</div>
+				</a>
+				<a href='?template=charge_list&amp;groupid=$group_id'>
+					<div class='pathitem'>
+						{$c_group_r['name']}
+					</div>
+				</a>
+				
+				
+			</div>
+			<div class='actions'>
+				<a href='?template=blog_edit&amp;blogid=0'>
+					<div>
+						Add News
+					</div>
+				</a>
+			</div>
+		</div>	
+	";
+		
 	echo "
 		<div class='header'>
 			{$charge_r['name']}

@@ -22,6 +22,11 @@
 	echo "
 		<div class='action_bar'>
 			<div class='path'>
+				<a href='?template=charges'>
+					<div class='pathitem'>
+						Charges
+					</div>
+				</a>
 				<a href='?template=charge_full'>
 					<div class='pathitem'>
 						Charge full list
@@ -94,6 +99,7 @@
 					submitter
 		from		charge_var
 		where		charge_name = ?
+		order by	variation
 		";
 
 

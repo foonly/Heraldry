@@ -9,6 +9,7 @@
 				lvl
 				
 	from		users
+	order by	lvl, created desc
 	
 	
 	";

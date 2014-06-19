@@ -59,10 +59,31 @@
 		$charge = $GLOBALS['db']->prepare($sql);
         $charge->execute(array($c_group_r['id']));
 		while ($charge_r = $charge->fetch()) {
+			$charge_nr = 0;
+			/*fetch charge names from selected group */
+			$sql = "
+			select		id,
+						variation,
+						charge_name,
+						license
+			from		charge_var
+			where		charge_name = ?
+			";
+	
+	
+			$chargenr = $GLOBALS['db']->prepare($sql);
+	        $chargenr->execute(array($charge_r['id']));
+			while ($chargenr_r = $chargenr->fetch()) {
+				$charge_nr += 1;
+			}
+						
+
+			
 			echo "
-					<a href='admin.php?template=charge_var&amp;chargeid={$charge_r['id']}'>
+					<a href='admin.php?template=charge_var&amp;groupid={$group_id}&amp;chargeid={$charge_r['id']}'>
 						<div class='itemcont contsmall'>
 							<div class='boxheader'>{$charge_r['name']}</div>
+							$charge_nr
 						</div>
 					</a>
 			";	

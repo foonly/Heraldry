@@ -229,6 +229,7 @@ img {
 .itemcont {
 	border: 1px solid #000;
 	float: left;
+	margin: 5px;
 }
 .contbig {
 	width: 150px;
