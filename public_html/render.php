@@ -5,7 +5,7 @@
 */
 
 require("../include/init.php");
-require("../include/init_heraldry.inc");
+//require("../include/init_heraldry.inc");
 
 // if the format's not set, or is wrong, set it to svg
 if( $_GET[format] == "png" || $_GET[format] == "svg" || $_GET[format] == "pdf" )
@@ -86,6 +86,7 @@ switch ($output_format) {
 			$fmt = "image/png";
 		$extopt = "-a -h {$size}";
 		}
+	
 		// Passthrough
 	case "pdf":
 		if (!$fmt)

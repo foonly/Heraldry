@@ -53,6 +53,7 @@
 					license
 		from		charge_name
 		where		charge_group = ?
+		order by	name
 		";
 
 

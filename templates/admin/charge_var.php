@@ -115,6 +115,43 @@
 		$chargev = $GLOBALS['db']->prepare($sql);
         $chargev->execute(array($charge_r['id']));
 		while ($chargev_r = $chargev->fetch()) {
+			/*fetch charge licenses */
+				$sql = "
+				select		name,
+							type,
+							type_nr,
+							ident
+				from		license
+				where		ident = ?
+				";
+		
+		
+				$license = $GLOBALS['db']->prepare($sql);
+		        $license->execute(array($chargev_r['license']));
+		        $license_r = $license->fetch();
+		        
+		        if ($license_r[type_nr] == 1) {
+		        	$col = 'green';
+		        } elseif ($license_r[type_nr] == 2) {
+		        	$col = 'red';
+		        } else {
+		        	$col = '#f0f0f0';
+		        }
+		        
+		        /*fetch user */
+				$sql = "
+				select		id,
+							fname,
+							lname
+				from		users
+				where		id = ?
+				";
+		
+		
+				$subuser = $GLOBALS['db']->prepare($sql);
+		        $subuser->execute(array($chargev_r['submitter']));
+		        $subuser_r = $subuser->fetch();
+		        
 			echo "
 					<tr>
 						<td>
@@ -132,11 +169,11 @@
 						<td>
 							{$chargev_r['details']}
 						</td>
-						<td>
-							{$chargev_r['lisense']}
+						<td style='color: $col'>
+							{$license_r['name']}
 						</td>
 						<td>
-							{$chargev_r['submitter']}
+							{$subuser_r['fname']}
 						</td>
 					</tr>
 				

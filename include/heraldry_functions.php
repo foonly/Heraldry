@@ -114,8 +114,9 @@ function renderCharge ($id,$basecol="",$heading=0,$details=Array()) {
 			from		$setting[schema].charge_var
 			where		id = ?
 			";
-		$ch_r = $GLOBALS['db']->prepare($sql);
-        $ch_r->execute(array($id));
+		$ch = $GLOBALS['db']->prepare($sql);
+        $ch->execute(array($id));
+		$ch_r = $ch->fetch();
 		
 		$th = 0;
 		$tw = 0;
