@@ -3,26 +3,26 @@
 function renderSVG ($coa = Array()) {
 	global $setting, $tinct;
 
-	if (!$coa[lineing]) $coa[lineing] = "FFFFFF";
-	if (!$coa[mantling]) $coa[mantling] = "FFFFFF";
-	if (!$coa[field]) $coa[field] = "inner";
-	if (!$coa[divcol1]) $coa[divcol1] = "CCCCCC";
-	if (!$coa[divcol2]) $coa[divcol2] = "AAAAAA";
+	if (!$coa['lineing']) $coa['lineing'] = "FFFFFF";
+	if (!$coa['mantling']) $coa['mantling'] = "FFFFFF";
+	if (!$coa['field']) $coa['field'] = "inner";
+	if (!$coa['divcol1']) $coa['divcol1'] = "CCCCCC";
+	if (!$coa['divcol2']) $coa['divcol2'] = "AAAAAA";
 		
 	$base = "";
-	if ($handle = fopen("$setting[svgbase]/base.svg","r")) {
+	if ($handle = fopen("{$setting['svgbase']}/base.svg","r")) {
  		while (!feof($handle)) {
 			$base .= fgets($handle, 4096);
 		}
 		fclose($handle);		
 	}
 
-	$base = str_replace("#BANNER#",$coa[banner],$base);
-	$base = str_replace("#NAME#",$coa[name],$base);
-	$base = str_replace("#INNER#",$tinct[$coa[lineing]],$base);
-	$base = str_replace("#OUTER#",$tinct[$coa[mantling]],$base);
+	$base = str_replace("#BANNER#",$coa['banner'],$base);
+	$base = str_replace("#NAME#",$coa['name'],$base);
+	$base = str_replace("#INNER#",$tinct[$coa['lineing']],$base);
+	$base = str_replace("#OUTER#",$tinct[$coa['mantling']],$base);
 	
-	$shield = renderShield($coa[field],$coa[division],$coa[divline],$coa[divcol1],$coa[divcol2],$coa[ordinaries],$coa[charges]);
+	$shield = renderShield($coa['field'],$coa['division'],$coa['divline'],$coa['divcol1'],$coa['divcol2'],$coa['ordinaries'],$coa['charges']);
 	$base = str_replace("#SHIELD#",$shield,$base);
 
 	return $base;
@@ -33,7 +33,7 @@ function renderShield ($field,$division,$divline,$divcol1,$divcol2,$ordinaries=A
 
 	// Base Shield
 	$shield = "";
-	if ($handle = fopen("$setting[svgbase]/shield.svg","r")) {
+	if ($handle = fopen("{$setting['svgbase']}/shield.svg","r")) {
  		while (!feof($handle)) {
 			$buffer = fgets($handle, 4096);
 			$shield .= $buffer;
@@ -45,7 +45,7 @@ function renderShield ($field,$division,$divline,$divcol1,$divcol2,$ordinaries=A
 	// Division
 	$div = "";
 	if (strlen($division)) {
-		if ($handle = fopen("$setting[svgbase]/div_$division.svg","r")) {
+		if ($handle = fopen("{$setting['svgbase']}/div_$division.svg","r")) {
  			while (!feof($handle)) {
 				$buffer = fgets($handle, 4096);
 				$div .= $buffer;
@@ -77,7 +77,7 @@ function renderShield ($field,$division,$divline,$divcol1,$divcol2,$ordinaries=A
 						$ord .= $buffer;
 					}
 					fclose($handle);
-					$ord = str_replace("#ORD#",$tinct[$o[col]],$ord);
+					$ord = str_replace("#ORD#",$tinct[$o['col']],$ord);
 				}
 			}
 		}
@@ -89,8 +89,8 @@ function renderShield ($field,$division,$divline,$divcol1,$divcol2,$ordinaries=A
 	if (is_array($charges)) {
 		foreach ($charges as $chg) {
 			$chg_text .= '
-				<g id="charge'.$chg[pos].'" transform="translate('.$chargecol[$chg[size]][$col[$chg[pos]]].' '.$chargerow[$chg[size]][$row[$chg[pos]]].') scale('.$chargesize[$chg[size]].')">
-					'.renderCharge($chg[variation],$chg[base],$chg[heading],$chg[details]).'
+				<g id="charge'.$chg['pos'].'" transform="translate('.$chargecol[$chg['size']][$col[$chg['pos']]].' '.$chargerow[$chg['size']][$row[$chg['pos']]].') scale('.$chargesize[$chg['size']].')">
+					'.renderCharge($chg['variation'],$chg['base'],$chg['heading'],$chg['details']).'
 				</g>			
 				';
 		}
@@ -120,22 +120,22 @@ function renderCharge ($id,$basecol="",$heading=0,$details=Array()) {
 		
 		$th = 0;
 		$tw = 0;
-		$diff = abs($ch_r[width] - $ch_r[height]) / 2;
-		if ($ch_r[width] > $ch_r[height]) {
-			$scale = $size / $ch_r[width];
+		$diff = abs($ch_r['width'] - $ch_r['height']) / 2;
+		if ($ch_r['width'] > $ch_r['height']) {
+			$scale = $size / $ch_r['width'];
 			$th = $diff;
 		} else {
-			$scale = $size / $ch_r[height];
+			$scale = $size / $ch_r['height'];
 			$tw = $diff;
 		}
 		if (!strlen($basecol) || $basecol == "proper")
-			$basecol = $ch_r[proper];
-		$body = str_replace("#BASE#",checkTin($basecol),$ch_r[body]);
-		$det = explode(",",$ch_r[details]);
+			$basecol = $ch_r['proper'];
+		$body = str_replace("#BASE#",checkTin($basecol),$ch_r['body']);
+		$det = explode(",",$ch_r['details']);
 		foreach ($det as $d) {
 			$c = explode(":",$d,2);
 			if (count($c) <= 1)
-				$c[1] = $ch_r[proper];
+				$c[1] = $ch_r['proper'];
 			if (!strlen(trim($details[$c[0]])))
 				$details[$c[0]] = $c[1];
 			$body = str_replace("#".strtoupper($c[0])."#",checkTin($details[$c[0]]),$body);
@@ -162,7 +162,7 @@ function coatOfArms($id) {
 		where		id = $id
 		";
 	$co_r = pg_get($conn,$query);
-	return unserialize($co_r[definition]);
+	return unserialize($co_r['definition']);
 }
 
 function listSvg ($choice,$tp="div",$name="division") {
@@ -234,18 +234,18 @@ function listTin ($name,$choice,$tp=0,$proper="") {
 		";
 	$ti = pg_query($conn,$query);
 	do {
-		if ($ti_r[id] || $proper != "") {
-			if (!$ti_r[id]) {
-				$ti_r[id] = "proper";
-				$ti_r[colour] = $proper;	
+		if ($ti_r['id'] || $proper != "") {
+			if (!$ti_r['id']) {
+				$ti_r['id'] = "proper";
+				$ti_r['colour'] = $proper;
 			}
 			if ($choice == "")
-				$choice = $ti_r[id];
-			if ($choice == $ti_r[id]) $sel = " checked='checked'"; else $sel = "";
+				$choice = $ti_r['id'];
+			if ($choice == $ti_r['id']) $sel = " checked='checked'"; else $sel = "";
 			$ret .= "
 				<div class='selTin'>
-					<input class='selTin' type='radio' name='$name' id='".$name."_".$ti_r[id]."' value='$ti_r[id]'$sel/>
-					<label class='selTin' for='".$name."_".$ti_r[id]."' style='background: $ti_r[colour]; color: ".invertHex($ti_r[colour]).";'>".ucwords($ti_r[id])."</label>
+					<input class='selTin' type='radio' name='$name' id='".$name."_".$ti_r['id']."' value='$ti_r[id]'$sel/>
+					<label class='selTin' for='".$name."_".$ti_r['id']."' style='background: $ti_r[colour]; color: ".invertHex($ti_r['colour']).";'>".ucwords($ti_r['id'])."</label>
 				</div>
 				";
 		}
@@ -280,35 +280,38 @@ function blazon ($coa) {
 	$pos[8] = "base ";	
 	$pos[9] = "base sinister ";	
 	
-	if ($coa[division])
-		$ret .= "parted ".$coa[division]." ".$coa[field]." and ".$coa[divcol1];
+	if ($coa['division'])
+		$ret .= "parted ".$coa['division']." ".$coa['field']." and ".$coa['divcol1'];
 	else
-		$ret .= $coa[field];
-	if (is_array($coa[ordinaries])) {
-		foreach ($coa[ordinaries] as $o) {
-			if ($o[tp])
-				$ret .= ", ".$o[tp]." ".$o[col];
+		$ret .= $coa['field'];
+	if (is_array($coa['ordinaries'])) {
+		foreach ($coa['ordinaries'] as $o) {
+			if ($o['tp'])
+				$ret .= ", ".$o['tp']." ".$o['col'];
 		}
 	}
-	if (is_array($coa[charges])) {
-		foreach ($coa[charges] as $c) {
-			if ($c[variation]) {		
+	if (is_array($coa['charges'])) {
+		foreach ($coa['charges'] as $c) {
+			if ($c['variation']) {
 				$query = "
-					select	name,
-								variation
-					from		$setting[schema].charges
-					where		id = $c[variation]
+					select
+					  name,
+					  variation
+					from
+					  $setting[schema].charges
+					where
+					  id = $c[variation]
 					";
 				$ch_r = pg_get($conn,$query);
-				if ($c[heading]) $h = " toward sinister"; else $h = "";
-				$ret .= ", ".$pos[$c[pos]].$ch_r[name]." ".$ch_r[variation].$h." ".$c[base];
+				if ($c['heading']) $h = " toward sinister"; else $h = "";
+				$ret .= ", ".$pos[$c['pos']].$ch_r['name']." ".$ch_r['variation'].$h." ".$c['base'];
 				$pk = "";
 				$pd = "";
 				$dret = "";
-				$cc = $c[base];
-				if (is_array($c[details])) {
-				asort($c[details]);
-					foreach ($c[details] as $k => $d) {
+				$cc = $c['base'];
+				if (is_array($c['details'])) {
+				asort($c['details']);
+					foreach ($c['details'] as $k => $d) {
 						if ($pd != $cc) {				
 							if ($pd == $d)				
 								$dret .= " $pk and";
