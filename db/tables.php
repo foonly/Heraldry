@@ -86,4 +86,16 @@ $tables = array(
             "submitter" => array("type"=>"uuid"),
         ),
     ),
+    array(
+        "type" => 3, // 1 - temporary (re-created each time), 2 - May delete columns, 3 - rename columns, 4 - do not delete
+        "name" => "license", // Name of table
+        "pkey" => "id", // Primary key column(s) (comma separated)
+        "cols" => array( // List the columns
+            "id" => array("type"=>"serial"),
+            "type" => array("type"=>"character varying"),
+            "name" => array("type"=>"character varying"),
+            "ident" => array("type"=>"integer"),
+            "type_nr" => array("type"=>"integer"),
+        ),
+    ),
 );

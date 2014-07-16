@@ -1,6 +1,6 @@
 <?php
 
-	$group_id = $_GET[groupid];
+	$group_id = $_GET['groupid'];
 
 	$sql = "
 	select		id,

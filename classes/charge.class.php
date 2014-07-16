@@ -1,6 +1,7 @@
 <?php
 
 class charge extends svg {
+    private $id;
     private $detail = Array(
         "base",     //Base colour
         "armed",    // Claws and teeth
@@ -15,7 +16,6 @@ class charge extends svg {
         "incensed", // 
         "flammant", // Fire
         );
-    private $armed;
-    private $langued;
-    
+
+
 }

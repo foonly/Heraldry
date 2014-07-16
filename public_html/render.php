@@ -25,6 +25,9 @@ $filename = $itemtype;
 // start to render
 switch( $itemtype ) {
 	case "charge":
+        $charge = new charge($id);
+
+        $svg = $charge->generate();
 
         /*
 		$svg .= renderCharge( $id );

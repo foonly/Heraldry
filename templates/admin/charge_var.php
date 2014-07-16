@@ -1,6 +1,6 @@
 <?php
 	/*fetch charge group */
-	$group_id = $_GET[groupid];
+	$group_id = $_GET['groupid'];
 
 	$sql = "
 	select		id,
@@ -18,7 +18,7 @@
 	$c_group_r = $group->fetch();
 	
 
-	$charge_id = $_GET[chargeid];
+	$charge_id = $_GET['chargeid'];
 
 	/*fetch charge names from selected group */
 		$sql = "
@@ -130,9 +130,9 @@
 		        $license->execute(array($chargev_r['license']));
 		        $license_r = $license->fetch();
 		        
-		        if ($license_r[type_nr] == 1) {
+		        if ($license_r['type_nr'] == 1) {
 		        	$col = 'green';
-		        } elseif ($license_r[type_nr] == 2) {
+		        } elseif ($license_r['type_nr'] == 2) {
 		        	$col = 'red';
 		        } else {
 		        	$col = '#f0f0f0';
