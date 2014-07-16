@@ -99,6 +99,7 @@ switch ($output_format) {
 	case "png":
 		if (empty($fmt)) $fmt = "image/png";
 		$extopt = "-a -h {$size}";
+
 		// Passthrough
 	case "pdf":
 		if (!$fmt)

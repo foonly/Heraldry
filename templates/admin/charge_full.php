@@ -145,11 +145,14 @@
 				
 				//<img src='$setting[rpath]/public_html/render.php?type=charge&amp;size=50&amp;id={$chargev_r['id']}&amp;format=png' alt='bild'/>
 				//".renderCharge($chargev_r['id'])."
+				
+				
+				
 			echo "
 					<tr>
 						<td>
 							
-							<img src='$setting[rpath]/render.php?type=charge&amp;size=50&amp;id={$chargev_r['id']}&amp;format=png' alt='bild'/>
+							<img src='render.php?type=charge&amp;size=50&amp;id={$chargev_r['id']}&amp;format=png' alt='bild'/>
 						</td>
 						<td>
 							{$chargev_r['variation']}
