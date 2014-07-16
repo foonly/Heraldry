@@ -3931,3 +3931,5 @@ LINE 8:     order by variation
 [15-Jul-2014 11:35:17 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 91
 [15-Jul-2014 11:35:17 UTC] PHP Parse error:  syntax error, unexpected T_CASE in /var/www/web/dev/heraldry2/public_html/render.php on line 91
 [15-Jul-2014 19:24:19 UTC] PHP Parse error:  syntax error, unexpected T_SL in /var/www/web/dev/heraldry2/public_html/render.php on line 88
+[15-Jul-2014 19:53:33 UTC] PHP Parse error:  syntax error, unexpected T_SL in /var/www/web/dev/heraldry2/public_html/render.php on line 88
+[15-Jul-2014 19:53:38 UTC] PHP Parse error:  syntax error, unexpected T_SL in /var/www/web/dev/heraldry2/public_html/render.php on line 88
