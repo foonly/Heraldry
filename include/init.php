@@ -1,6 +1,7 @@
 <?php
 
 require_once "settings.php";
+require_once "definition.php";
 require_once "foondb/db.class.php";
 require_once "foonuser/user.class.php";
 

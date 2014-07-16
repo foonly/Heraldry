@@ -8,36 +8,37 @@
 require("../include/init.php");
 
 // if the format's not set, or is wrong, set it to svg
-if( $_GET['format'] == "png" || $_GET['format'] == "svg" || $_GET['format'] == "pdf" )
-	{
+if ( preg_match("/^(png|svg|pdf)$/i",trim($_GET['format']))) {
 	$output_format = $_GET['format'];
-	}
-else
-	{
+} else {
 	$output_format = "svg";
-	}
+}
 
-
-$svg = '<?xml version="1.0" encoding="UTF-8"?>\n';
 $hash = md5($_SERVER["QUERY_STRING"]);
 
 // handle the request variables in one place
-$size = isset( $_GET['size'] ) ? $_GET['size'] : 100;
-$id = $_GET['id'];
+$size = (empty($_GET['size']) || !ctype_digit($_GET['size']))?100:$_GET['size'];
+$id = empty($_GET['id'])?0:$_GET['id'];
 $itemtype = $_GET['type'];
 $filename = $itemtype;
 
 // start to render
 switch( $itemtype ) {
 	case "charge":
-		
+
+        /*
 		$svg .= renderCharge( $id );
 		$f = strpos($svg, "100%");
 		$svg = substr_replace($svg, $size."px", $f, 4);
 		$f = strpos($svg, "100%");
 		$svg = substr_replace($svg, $size."px", $f, 4);
+		*/
 	break;
 	case "shield":
+        $shield = new shield();
+
+        $svg = $shield->generate();
+        /*
 		if (isset($_GET['ord'])) {
 			if (is_array($_GET['ord'])) {
 				$ord = $_GET['ord'];
@@ -53,9 +54,16 @@ switch( $itemtype ) {
 		$svg = substr_replace($svg, $size."px", $f, 4);
 		$f = strpos($svg, "100%");
 		$svg = substr_replace($svg, $size."px", $f, 4);
+		*/
 	break;
 	case "coa":
-		if (isset($_GET['coa'])) {
+
+        $coa = new coa();
+
+        $svg = $coa->generate();
+
+        /*
+        if (isset($_GET['coa'])) {
 			$coa = unserialize($_GET['coa']);
 		} else {		
 			$coa = coatofarms( $id );
@@ -64,6 +72,7 @@ switch( $itemtype ) {
 		if( $coa['name'] ) {
 			$filename = $coa['name'];
 			}
+		*/
 	break;
 	default:
 		exit();
@@ -72,18 +81,20 @@ switch( $itemtype ) {
 
 // start to output the file
 
+$svg = '<?xml version="1.0" encoding="UTF-8"?>'.$svg;
+
+
 $filename = preg_replace("/[^a-zA-Z0-9]/", "_", $filename). ".{$output_format}";
 $extopt = "";
 
 switch ($output_format) {
 	case "svg":
-		//header("Content-type: image/svg+xml; charset=utf-8");
-		//header("Content-Disposition: inline; filename={$filename}");
+		header("Content-type: image/svg+xml; charset=utf-8");
+		header("Content-Disposition: inline; filename={$filename}");
 		echo $svg;
 	break;
 	case "png":
-		if (!$fmt) 
-			$fmt = "image/png";
+		if (empty($fmt)) $fmt = "image/png";
 		$extopt = "-a -h {$size}";
 		// Passthrough
 	case "pdf":
@@ -94,11 +105,11 @@ switch ($output_format) {
 			fwrite($handle,$svg);
 			fclose($handle);
 			
-			//header("Content-type: {$fmt}");
-			//header("Cache-control: public");
-			//header("Pragma: public");
-			//header("Expires: ".date("D, d M Y H:i:s T",time()+86400));
-			//header("Content-Disposition: inline; filename={$filename}");
+			header("Content-type: {$fmt}");
+			header("Cache-control: public");
+			header("Pragma: public");
+			header("Expires: ".date("D, d M Y H:i:s T",time()+86400));
+			header("Content-Disposition: inline; filename={$filename}");
 			// convert the file from svg
 			passthru("rsvg-convert {$extopt} --format={$output_format} {$file}");
 		}

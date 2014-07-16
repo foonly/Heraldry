@@ -26,7 +26,7 @@ function invertHex ($hex) {
 function classAutoLoader($class) {
     if (!class_exists($class)) {
         $class = strtolower($class);
-        @include "../classes/{$class}.class.php";
+        if (!@include "../classes/{$class}.class.php") error_log("Class: {$class} not found.");
     }
 }
 
