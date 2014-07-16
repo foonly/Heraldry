@@ -36,8 +36,10 @@ class charge extends svg {
             $this->body = $row['body'];
             $this->color = $row['proper'];
             foreach (explode(",",$row['details']) as $detail) {
-                list($key,$value) = explode(":",$detail,2);
-                $this->detail[$key] = $value;
+                if (strpos($detail,":") !== false) {
+                    list($key,$value) = explode(":",$detail,2);
+                    $this->detail[$key] = $value;
+                }
             }
         }
 
