@@ -5,4 +5,4 @@ smarty
 .DS_Store
 *.swp
 *.orig
-
+*.log

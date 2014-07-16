@@ -28,6 +28,22 @@ $GLOBALS['tincture'] = array(
     "counter vair" => array("tp"=>4,"colour"=>"url(#FurCounterVair)"),
     );
 
+$GLOBALS['details'] = Array(
+    "base",     //Base colour
+    "armed",    // Claws and teeth
+    "langued",  // Tongue
+    "pizzled",  // Genitals
+    "attired",  //
+    "unguled",  //
+    "crined",   //
+    "fructed",  // Fruits
+    "leaved",   // Leaves
+    "barbed",   //
+    "incensed", //
+    "flammant", // Fire
+);
+
+
 // Position & size
 $position = array(
     1 => array("row"=>0,"col"=>0),
