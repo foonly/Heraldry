@@ -27,20 +27,14 @@ switch( $itemtype ) {
 	case "charge":
         $charge = new charge($id);
 
-        $svg = $charge->generate();
+        $svg = $charge->generate(true);
 
-        /*
-		$svg .= renderCharge( $id );
-		$f = strpos($svg, "100%");
-		$svg = substr_replace($svg, $size."px", $f, 4);
-		$f = strpos($svg, "100%");
-		$svg = substr_replace($svg, $size."px", $f, 4);
-		*/
 	break;
 	case "shield":
         $shield = new shield();
 
         $svg = $shield->generate();
+
         /*
 		if (isset($_GET['ord'])) {
 			if (is_array($_GET['ord'])) {

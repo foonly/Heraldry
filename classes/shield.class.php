@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: niko
- * Date: 16/07/14
- * Time: 11:30
- */
 
 class shield extends svg {
     private $id;
@@ -31,6 +25,8 @@ class shield extends svg {
         $division = preg_replace("/[^a-z0-9]/", "_", strtolower($division));
         if (!empty($division) && file_exists($GLOBALS['setting']['svgbase']."/div_{$division}.svg")) {
             $this->division = $division;
+            if (!empty($divcol1)) $this->divcol1 = $divcol1;
+            if (!empty($divcol2)) $this->divcol2 = $divcol2;
             return true;
         } else {
             $this->division = NULL;

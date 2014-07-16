@@ -8,7 +8,7 @@ class coa extends svg {
     private $shield;
 
     function __construct() {
-        $this->shield = new shield();
+        $this->shield = new shield("gules","gyronny","or");
     }
 
     // Setters
