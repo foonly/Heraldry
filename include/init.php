@@ -35,20 +35,6 @@ if (isset($_POST['login']) && isset($_POST['passwd'])) {
     }
 }
 
-
-
-if (strstr($_SERVER["HTTP_ACCEPT"],"application/xhtml+xml")) {
-    define("CONTENTTYPE","application/xhtml+xml");
-    define("XHTML",true);
-} else {
-    define("CONTENTTYPE","text/html");
-    define("XHTML",false);
-}
-
-echo header("Content-type: ".CONTENTTYPE."; charset=utf-8");
-
-
-
 /*define the default template */
 if (empty($_GET['template'])) {
 	$template = "main";

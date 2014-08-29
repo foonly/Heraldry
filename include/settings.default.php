@@ -1,13 +1,13 @@
 <?php
 
-// Copy this file to settings.inc on deployment.
+// Copy this file to settings.php on deployment.
 
 // Database Settings
 $setting['db']['type'] = "pgsql"; // mysql or pgsql
 $setting['db']['server'] = "::1"; // hostname or ip
 $setting['db']['port'] = 5432; // 3306 for mysql & 5432 for postgresql
 $setting['db']['user'] = "heraldry";
-$setting['db']['password'] = "";
+$setting['db']['password'] = "foobar";
 $setting['db']['name'] = "heraldry";
 
 $setting['schema']="public";

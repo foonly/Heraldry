@@ -1,9 +1,21 @@
 <?php
 
 require_once "init.php";
+
+if (!empty($_SERVER["HTTP_ACCEPT"]) && strstr($_SERVER["HTTP_ACCEPT"],"application/xhtml+xml")) {
+    define("CONTENTTYPE","application/xhtml+xml");
+    define("XHTML",true);
+} else {
+    define("CONTENTTYPE","text/html");
+    define("XHTML",false);
+}
+
+echo header("Content-type: ".CONTENTTYPE."; charset=utf-8");
+
+
 $user->setCookie(); // Called here because non-display templates can't set cookies.
 
-require 'Smarty-3.1.16/libs/Smarty.class.php';
+require 'Smarty-3.1.19/libs/Smarty.class.php';
 $smartyBase = new Smarty();
 
 $smartyBase->setTemplateDir(Array($setting['apath'].'/templates',$setting['apath'].'/templates/'.SECTION));
