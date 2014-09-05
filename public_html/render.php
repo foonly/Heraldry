@@ -8,7 +8,7 @@
 require("../include/init.php");
 
 // if the format's not set, or is wrong, set it to svg
-if ( preg_match("/^(png|svg|pdf)$/i",trim($_GET['format']))) {
+if (preg_match("/^(png|svg|pdf)$/i",trim($_GET['format']))) {
 	$output_format = $_GET['format'];
 } else {
 	$output_format = "svg";
@@ -31,7 +31,12 @@ switch( $itemtype ) {
 
 	break;
 	case "shield":
-        $shield = new shield();
+        $shield = new shield("azure","per_bend","or");
+        $shield->addOrdinary("bend","vert");
+        $shield->addOrdinary("bordure","argent");
+
+        //print_r($shield);
+        //exit();
 
         $svg = $shield->generate();
 
