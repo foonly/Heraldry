@@ -83,7 +83,7 @@ switch( $itemtype ) {
 
 // start to output the file
 
-$svg = '<?xml version="1.0" encoding="UTF-8"?>'.$svg;
+$svg = '<?xml version="1.0" encoding="UTF-8"?>'."\n".$svg;
 
 
 $filename = preg_replace("/[^a-zA-Z0-9]/", "_", $filename). ".{$output_format}";

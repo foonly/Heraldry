@@ -5,7 +5,7 @@ require_once "definition.php";
 require_once "foondb/db.class.php";
 require_once "foonuser/user.class.php";
 
-require_once "local_functions.php";
+require_once "localFunctions.php";
 require_once "heraldry_functions.php";
 
 spl_autoload_register('classAutoLoader');

@@ -33,3 +33,8 @@ function classAutoLoader($class) {
 function isEmail($email) {
     return filter_var($email, FILTER_VALIDATE_EMAIL);
 }
+
+function linkTo ($link) {
+    $url = rtrim($GLOBALS['setting']['rpath'],"/")."/".ltrim($link,"/");
+    return "/".ltrim($url,"/");
+}

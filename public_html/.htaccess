@@ -9,7 +9,7 @@ RewriteCond %{REQUEST_METHOD} =POST
 RewriteRule ^([0-9A-Za-z_]+)  transaction.php?template=$1 [QSA]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^render/([A-Za-z_]+)([0-9]*)\.([A-Za-z_]+) render.php?type=$1&format=$3&id=$2 [QSA]
+RewriteRule ^render/(([0-9]+)/)?([A-Za-z_]+)([0-9]*)\.([A-Za-z_]+) render.php?type=$3&format=$5&id=$4&size=$2 [QSA]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^account(/([0-9A-Za-z_]+))? account.php?template=$2 [QSA]
