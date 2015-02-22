@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: niko
- * Date: 16/07/14
- * Time: 11:30
- */
 
 class shield extends svg {
     private $id;
@@ -29,8 +23,10 @@ class shield extends svg {
     // Setters
     function setDivision ($division,$divcol1="",$divcol2="") {
         $division = preg_replace("/[^a-z0-9]/", "_", strtolower($division));
-        if (!empty($division) && file_exists($GLOBALS['setting']['svgbase']."/div_{$division}.svg")) {
+        if (!empty($division) && file_exists($GLOBALS['setting']['svgbase']."/division/{$division}.svg")) {
             $this->division = $division;
+            if (!empty($divcol1)) $this->divcol1 = $divcol1;
+            if (!empty($divcol2)) $this->divcol2 = $divcol2;
             return true;
         } else {
             $this->division = NULL;
@@ -39,7 +35,8 @@ class shield extends svg {
     }
 
     function addOrdinary ($ordinary,$color) {
-        if (!empty($ordinary) && file_exists($GLOBALS['setting']['svgbase']."/ord_{$ordinary}.svg")) {
+        $ordinary = strtolower($ordinary);
+        if (file_exists($GLOBALS['setting']['svgbase']."/ordinary/{$ordinary}.svg")) {
             $this->ordinaries[] = array(
                 "name" => $ordinary,
                 "color" => $color,
@@ -56,8 +53,8 @@ class shield extends svg {
         $shield = str_replace("#FIELD#",$this->tincture($this->field),$shield);
 
         // Division
-        if (!empty($this->division) && file_exists($GLOBALS['setting']['svgbase']."/div_{$this->division}.svg")) {
-            $div = file_get_contents($GLOBALS['setting']['svgbase']."/div_{$this->division}.svg");
+        if (!empty($this->division) && file_exists($GLOBALS['setting']['svgbase']."/division/{$this->division}.svg")) {
+            $div = file_get_contents($GLOBALS['setting']['svgbase']."/division/{$this->division}.svg");
 
             $div = str_replace("#DIV#",$this->tincture($this->divcol1),$div);
             $div = str_replace("#DIV1#",$this->tincture($this->divcol1),$div);
@@ -80,8 +77,8 @@ class shield extends svg {
         // Ordinaries
         $replace = "";
         foreach ($this->ordinaries as $key => $o) {
-            if (file_exists($GLOBALS['setting']['svgbase']."/ord_{$o['name']}.svg")) {
-                $ord = file_get_contents($GLOBALS['setting']['svgbase']."/ord_{$o['name']}.svg");
+            if (file_exists($GLOBALS['setting']['svgbase']."/ordinary/{$o['name']}.svg")) {
+                $ord = file_get_contents($GLOBALS['setting']['svgbase']."/ordinary/{$o['name']}.svg");
                 $replace .= str_replace("#ORD#",$this->tincture($o['color']),$ord);
             }
         }

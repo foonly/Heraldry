@@ -3,7 +3,7 @@
 /*define the section*/
 define("SECTION", "admin");
 
-require "../include/init_display.php";
+require "../include/initDisplay.php";
 
 // Run the template and assign to $sOutput
 require "../include/runTemplate.php";

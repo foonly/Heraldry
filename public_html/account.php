@@ -3,7 +3,7 @@
 /*define the section*/
 define("SECTION", "account");
 
-require "../include/init_display.php";
+require "../include/initDisplay.php";
 
 // include .php template, and write any potential output to $sOutput.
 // TODO this should probably be included somehow, otherwise code will duplicate. 

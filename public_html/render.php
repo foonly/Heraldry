@@ -8,7 +8,7 @@
 require("../include/init.php");
 
 // if the format's not set, or is wrong, set it to svg
-if ( preg_match("/^(png|svg|pdf)$/i",trim($_GET['format']))) {
+if (preg_match("/^(png|svg|pdf)$/i",trim($_GET['format']))) {
 	$output_format = $_GET['format'];
 } else {
 	$output_format = "svg";
@@ -27,20 +27,19 @@ switch( $itemtype ) {
 	case "charge":
         $charge = new charge($id);
 
-        $svg = $charge->generate();
+        $svg = $charge->generate(true);
 
-        /*
-		$svg .= renderCharge( $id );
-		$f = strpos($svg, "100%");
-		$svg = substr_replace($svg, $size."px", $f, 4);
-		$f = strpos($svg, "100%");
-		$svg = substr_replace($svg, $size."px", $f, 4);
-		*/
 	break;
 	case "shield":
-        $shield = new shield();
+        $shield = new shield("azure","per_bend","or");
+        $shield->addOrdinary("bend","vert");
+        $shield->addOrdinary("bordure","argent");
+
+        //print_r($shield);
+        //exit();
 
         $svg = $shield->generate();
+
         /*
 		if (isset($_GET['ord'])) {
 			if (is_array($_GET['ord'])) {
@@ -84,7 +83,7 @@ switch( $itemtype ) {
 
 // start to output the file
 
-$svg = '<?xml version="1.0" encoding="UTF-8"?>'.$svg;
+$svg = '<?xml version="1.0" encoding="UTF-8"?>'."\n".$svg;
 
 
 $filename = preg_replace("/[^a-zA-Z0-9]/", "_", $filename). ".{$output_format}";

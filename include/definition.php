@@ -8,15 +8,15 @@ $lvlnm[8] = "Content Admin";
 $lvlnm[10] = "Admin";
 
 $GLOBALS['tincture'] = array(
-    "argent" => array("tp"=>1,"colour"=>"#e7ebec"),
-    "or" => array("tp"=>1,"colour"=>"#f2d73a"),
+    "argent" => array("tp"=>1,"colour"=>"#E7EBEC"),
+    "or" => array("tp"=>1,"colour"=>"#F2D73A"),
     "azure" => array("tp"=>2,"colour"=>"#2121CC"),
-    "gules" => array("tp"=>2,"colour"=>"#e10404"),
-    "purpure" => array("tp"=>2,"colour"=>"#884da0"),
+    "gules" => array("tp"=>2,"colour"=>"#E10404"),
+    "purpure" => array("tp"=>2,"colour"=>"#884DA0"),
     "sable" => array("tp"=>2,"colour"=>"#000000"),
     "vert" => array("tp"=>2,"colour"=>"#30783B"),
     "murrey" => array("tp"=>3,"colour"=>"#800040"),
-    "sanguine" => array("tp"=>3,"colour"=>"#c00000"),
+    "sanguine" => array("tp"=>3,"colour"=>"#C00000"),
     "tenne" => array("tp"=>3,"colour"=>"#E0760B"),
     "ermine" => array("tp"=>4,"colour"=>"url(#FurErmine)"),
     "ermines" => array("tp"=>4,"colour"=>"url(#FurErmines)"),

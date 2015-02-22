@@ -9,7 +9,7 @@
 			</div>
 		    <div class='menu'>
             {foreach $menu as $m}
-                <a href='/{$m.tpl}'>
+                <a href='{$m.tpl}'>
                     <div class='menuitem'>
                         {$m.name}
                     </div>

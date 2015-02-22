@@ -1,6 +1,6 @@
 <?php
 
-	$charge_id = $_GET[chargeid];
+	$charge_id = empty($_GET['chargeid'])?0:$_GET['chargeid'];
 
 	/*fetch charge names from selected group */
 		$sql = "
@@ -121,9 +121,9 @@
 		        $license->execute(array($chargev_r['license']));
 		        $license_r = $license->fetch();
 		        
-		        if ($license_r[type_nr] == 1) {
+		        if ($license_r['type_nr'] == 1) {
 		        	$col = 'green';
-		        } elseif ($license_r[type_nr] == 2) {
+		        } elseif ($license_r['type_nr'] == 2) {
 		        	$col = 'red';
 		        } else {
 		        	$col = '#f0f0f0';

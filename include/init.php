@@ -5,7 +5,7 @@ require_once "definition.php";
 require_once "foondb/db.class.php";
 require_once "foonuser/user.class.php";
 
-require_once "local_functions.php";
+require_once "localFunctions.php";
 require_once "heraldry_functions.php";
 
 spl_autoload_register('classAutoLoader');
@@ -34,20 +34,6 @@ if (isset($_POST['login']) && isset($_POST['passwd'])) {
         exit();
     }
 }
-
-
-
-if (strstr($_SERVER["HTTP_ACCEPT"],"application/xhtml+xml")) {
-    define("CONTENTTYPE","application/xhtml+xml");
-    define("XHTML",true);
-} else {
-    define("CONTENTTYPE","text/html");
-    define("XHTML",false);
-}
-
-echo header("Content-type: ".CONTENTTYPE."; charset=utf-8");
-
-
 
 /*define the default template */
 if (empty($_GET['template'])) {
