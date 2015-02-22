@@ -143,7 +143,7 @@
 		        $subuser->execute(array($chargev_r['submitter']));
 		        $subuser_r = $subuser->fetch();
 				
-				//<img src='$setting[rpath]/public_html/render.php?type=charge&amp;size=50&amp;id={$chargev_r['id']}&amp;format=png' alt='bild'/>
+				//<img src='render.php?type=charge&amp;size=50&amp;id={$chargev_r['id']}&amp;format=png' alt='bild'/>
 				//".renderCharge($chargev_r['id'])."
 				
 				
@@ -152,7 +152,7 @@
 					<tr>
 						<td>
 							
-							<img src='render.php?type=charge&amp;size=50&amp;id={$chargev_r['id']}&amp;format=png' alt='bild'/>
+							<img src='render/charge.png?id={$chargev_r['id']}&amp;size=50&amp;format=png' alt='bild'/>
 						</td>
 						<td>
 							{$chargev_r['variation']}
