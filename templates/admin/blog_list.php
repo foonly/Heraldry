@@ -63,7 +63,7 @@
 	while ($blog_r = $query->fetch()) {
 	
 		$blog_date = date('Y-m-d - H:i', strtotime($blog_r['postdate']));
-		/* */
+		/* comment count */
 		$sql = "
 		select		id,
 					parent,
@@ -85,13 +85,13 @@
 		echo "
 			<tr>
 				<td class='firstcell'>
-					<a href='?template=blog_edit&amp;blogid={$blog_r['id']}'>{$blog_r['header']}</a>
+					<a href='?template=blog_edit&amp;blogid={$blog_r['id']}'>- {$blog_r['header']}</a>
 				</td>
 				<td>
 					{$blog_r['fname']} {$blog_r['lname']}
 				</td>
 				<td>
-					$nrcom
+					<a href='?template=blog_com_edit&amp;blogid={$blog_r['id']}'>$nrcom</a>
 				</td>
 				<td>
 					{$blog_date}

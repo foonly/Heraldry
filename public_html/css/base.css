@@ -6,7 +6,7 @@ body {
 	margin: 0;
 	border: 0;
 	height: 100%;
-	font-size: 11pt;
+	font-size: 12pt;
 	font-family: Serif;
 }
 div.world {
@@ -27,7 +27,7 @@ div.world {
 	overflow:hidden;
 }
 div.ribbon {
-	width: 1000px;
+	max-width: 1000px;
 	min-height: 400px;
 	margin: auto;
 	margin-bottom: 45px;
@@ -182,7 +182,7 @@ img {
 }
 .list td {
 	background: #f0f0f0;
-	padding: 3px;
+	padding: 5px;
 	text-align: center;
 }
 .list th.firstcell {
@@ -193,9 +193,9 @@ img {
 }
 /*blog stuff*/
 .blogpost {
-	background: #f0f0f0;
+	background: #dedce0;
 	padding: 8px;
-	min-height: 85px;
+	min-height: 100px;
 	margin-bottom: 10px;
 }
 .blogheader  {
@@ -208,11 +208,11 @@ img {
 .blogcomment {
 	background: #f0f0f0;
 	padding: 8px;
-	min-height: 85px;
+	min-height: 65px;
 	margin-bottom: 10px;
 }
 .commentheader  {
-	border-bottom: 1px solid red;
+	border-bottom: 1px solid #beafc1;
 }
 .commentheader span {
 	font-size: 110%;

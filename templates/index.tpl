@@ -8,6 +8,7 @@
             <link href="{$setting.rpath}/css/{$s}.css" title="main" rel="stylesheet" type="text/css" media="screen,tv"/>
         {/foreach}
         <link href="{$setting.rpath}/css/{$section}.css" title="main" rel="stylesheet" type="text/css" media="screen,tv"/>
+        <link href="{$setting.rpath}/css/min.css" title="main" rel="stylesheet" type="text/css" media="screen and (max-device-width: 800px)"/>
         <link rel="shortcut icon" href="{$setting.rpath}/img/favicon.png" type="image/x-icon" />
         
         <!-- analytics -->
