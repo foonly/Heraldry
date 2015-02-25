@@ -1,12 +1,10 @@
 <div class='ribbon'>
-	{include file="user_info.tpl"}
+	
 	<div class='topbar'>
 		<header>
 			
-		<div class='logoarea'>
-			<a href='index.php'><h1 id='title'>{$setting.title}</h1></a>
-			<h2 id='subtitle'>{$section}</h2>
-		</div>
+		{include file="top_header.tpl"}
+		
         <div class='menu'>
             {foreach $menu as $m}
                 <a href='{$section}.php?template={$m.tpl}'>

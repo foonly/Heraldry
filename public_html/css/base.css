@@ -80,23 +80,34 @@ h4.header {
 img {
 	border: none;
 }
+/*header of page */
+
 .logoarea {
 	min-width: 300px;
 	margin: 10px;
+	margin-top: -40px;
+}
+.logo {
+	float: left;
+	margin: 15px;
+}
+.logotext {
+	float: left;
+	margin: 15px;
 }
 /* user info bar */
-.userinfo {
+.blackbar {
 	width: 100%;
 	min-height: 25px;
 	background: #000;
 	color: #fff;
 	overflow: hidden;
 }
-.userinfo a {
+.blackbar a {
 	color: #fff;
 	
 }
-.userinfo a:hover {
+.blackbar a:hover {
 	color: #ff8040;
 }
 .frame {
@@ -105,6 +116,12 @@ img {
 	border-left: 1px solid #f0f0f0;
 	padding: 5px;
 	float: right;
+}
+
+.topbar {
+	min-height: 100px;
+	
+	
 }
 /*header buttons*/
 
@@ -117,6 +134,7 @@ img {
 	border-top: 1px solid red;
 	border-bottom: 2px solid red;
 	overflow: hidden;
+	clear: both;
 }
 .menuitem {
 	float: left;
@@ -124,9 +142,7 @@ img {
 	margin-right: 10px;
 	font-size: 140%;
 }
-.topbar {
-	
-}
+
 /* action bar */
 .action_bar {
 	width: 100%;
