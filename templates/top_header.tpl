@@ -34,7 +34,7 @@
 <div>
 	<div class='logoarea'>
 		<div class='logo'>
-			<img src='{$setting.rpath}/img/shield.png' alt='logo' />
+			<a href='index.php'><img src='{$setting.rpath}/img/shield.png' alt='logo' /></a>
 		</div>
 		<div class='logotext'>
 				<a href='index.php'><h1 id='title'>{$setting.title}</h1></a>

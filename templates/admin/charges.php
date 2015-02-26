@@ -60,6 +60,7 @@
 				<a href='admin.php?template=charge_list&amp;groupid={$c_group_r['id']}'>
 						<div class='itemcont contbig'>
 							<div class='boxheader'>{$c_group_r['name']}</div>
+							<img src='/render/50/charge{$c_group_r['cover']}.png' alt='bild'/>
 							$charge_nr
 						</div>
 				</a>

@@ -150,9 +150,9 @@
 				
 			echo "
 					<tr>
-						<td>
+						<td class='icon'>
 							
-							<img src='render/charge.png?id={$chargev_r['id']}&amp;size=50&amp;format=png' alt='bild'/>
+							<img src='/render/50/charge{$chargev_r['id']}.png' alt='bild'/>
 						</td>
 						<td>
 							{$chargev_r['variation']}

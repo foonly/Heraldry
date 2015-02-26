@@ -5825,3 +5825,623 @@ LINE 7:               xoffset,
 [25-Feb-2015 09:12:08 UTC] Class: smarty_internal_templateparser not found.
 [25-Feb-2015 09:12:08 UTC] Class: smarty_internal_compilebase not found.
 [25-Feb-2015 09:12:08 UTC] Class: smarty_internal_write_file not found.
+[25-Feb-2015 09:14:00 UTC] Class: smarty_internal_templatecompilerbase not found.
+[25-Feb-2015 09:14:00 UTC] Class: smarty_internal_templatelexer not found.
+[25-Feb-2015 09:14:00 UTC] Class: smarty_internal_templateparser not found.
+[25-Feb-2015 09:14:00 UTC] Class: smarty_internal_compilebase not found.
+[25-Feb-2015 09:14:00 UTC] Class: smarty_internal_write_file not found.
+[26-Feb-2015 09:48:44 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:48:52 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:07 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:08 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:09 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:10 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:11 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:12 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:13 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:21 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:50:31 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:52:15 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:52:17 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:53:37 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:54:14 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:54:30 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:55:35 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:55:37 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 09:59:02 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 10:01:45 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 10:02:20 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Feb-2015 10:02:23 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
+LINE 7:               xoffset,
+                      ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
