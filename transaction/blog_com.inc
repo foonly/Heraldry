@@ -34,6 +34,6 @@ if ($blogid > 0) {
 	
 }
 
-		header("Refresh: 1; URL=".$ret_url);
+		header("Refresh: 0; URL=".$ret_url);
 		
 ?>

@@ -8,7 +8,7 @@
                 Email:
             </td>
             <td>
-                <input type="text" name="login"/>
+                <input type="email" name="login"/>
             </td>
         </tr>
         <tr>

@@ -111,6 +111,7 @@
 					submitter
 		from		charge_var
 		where		charge_name = ?
+		order by	variation
 		";
 
 
