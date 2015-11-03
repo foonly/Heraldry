@@ -10,6 +10,7 @@
         <link href="{$setting.rpath}/css/{$section}.css" title="main" rel="stylesheet" type="text/css" media="screen,tv"/>
         <link href="{$setting.rpath}/css/min.css" title="main" rel="stylesheet" type="text/css" media="screen and (max-device-width: 800px)"/>
         <link rel="shortcut icon" href="{$setting.rpath}/img/favicon.png" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Uncial+Antiqua|Cinzel+Decorative|Shojumaru" rel="stylesheet" type="text/css"/>
         
         <!-- analytics -->
         <script type="text/javascript">

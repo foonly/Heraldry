@@ -12,8 +12,12 @@ echo "
 		<meta http-equiv='content-type' content='$contenttype; charset=UTF-8'/>
 		<meta name='keywords' content='rpg,roleplaying games,heraldry,name generator,coat of arms' />
 		<title>$setting[title]</title>
+		
 		$css
 		<link rel='shortcut icon' href='/headers/img/favicon.png' type='image/x-icon' />
+		
+		
+		
 		<script type='text/javascript'>
 
 		  var _gaq = _gaq || [];

@@ -6445,3 +6445,19 @@ LINE 7:               xoffset,
 [26-Feb-2015 10:02:23 UTC] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[42703]: Undefined column: 7 ERROR:  column &quot;xoffset&quot; does not exist
 LINE 7:               xoffset,
                       ^ in /var/www/web/dev/heraldry/classes/charge.class.php on line 39
+[26-Oct-2015 18:25:06 UTC] PHP Warning:  Unknown: GC cache entry '/var/www/web/production/rpg/heraldry/render.php' (dev=2065 ino=8915842) was on gc-list for 3616 seconds in Unknown on line 0
+[26-Oct-2015 18:25:06 UTC] PHP Warning:  Unknown: GC cache entry '/var/www/web/production/rpg/globals/init.inc' (dev=2065 ino=8915811) was on gc-list for 3616 seconds in Unknown on line 0
+[26-Oct-2015 18:25:12 UTC] Class: smarty_internal_templatecompilerbase not found.
+[26-Oct-2015 18:25:12 UTC] Class: smarty_internal_templatelexer not found.
+[26-Oct-2015 18:25:12 UTC] Class: smarty_internal_templateparser not found.
+[26-Oct-2015 18:25:12 UTC] Class: smarty_internal_write_file not found.
+[03-Nov-2015 12:03:06 UTC] Class: smarty_internal_templatecompilerbase not found.
+[03-Nov-2015 12:03:06 UTC] Class: smarty_internal_templatelexer not found.
+[03-Nov-2015 12:03:06 UTC] Class: smarty_internal_templateparser not found.
+[03-Nov-2015 12:03:06 UTC] Class: smarty_internal_compilebase not found.
+[03-Nov-2015 12:03:06 UTC] Class: smarty_internal_write_file not found.
+[03-Nov-2015 12:03:44 UTC] Class: smarty_internal_templatecompilerbase not found.
+[03-Nov-2015 12:03:44 UTC] Class: smarty_internal_templatelexer not found.
+[03-Nov-2015 12:03:44 UTC] Class: smarty_internal_templateparser not found.
+[03-Nov-2015 12:03:44 UTC] Class: smarty_internal_compilebase not found.
+[03-Nov-2015 12:03:44 UTC] Class: smarty_internal_write_file not found.

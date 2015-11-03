@@ -10,13 +10,13 @@ body {
 	font-family: Serif;
 }
 div.world {
-	background: #BFD8EF url('img/back.png'); /* fallback */
-	background: url('img/back.png'), -webkit-gradient(linear, left top, left bottom, from(#BFD8EF), to(#769CC1)); /* Saf4+, Chrome */
-	background: url('img/back.png'), -webkit-linear-gradient(top, #BFD8EF, #769CC1); /* Chrome 10+, Saf5.1+ */
-	background: url('img/back.png'),    -moz-linear-gradient(top, #BFD8EF, #769CC1); /* FF3.6+ */
-	background: url('img/back.png'),     -ms-linear-gradient(top, #BFD8EF, #769CC1); /* IE10 */
-	background: url('img/back.png'),      -o-linear-gradient(top, #BFD8EF, #769CC1); /* Opera 11.10+ */
-	background: url('img/back.png'),         linear-gradient(top, #BFD8EF, #769CC1); /* W3C */
+	background: #BFD8EF url('../img/back.png'); /* fallback */
+	background: url('../img/back.png'), -webkit-gradient(linear, left top, left bottom, from(#BFD8EF), to(#769CC1)); /* Saf4+, Chrome */
+	background: url('../img/back.png'), -webkit-linear-gradient(top, #BFD8EF, #769CC1); /* Chrome 10+, Saf5.1+ */
+	background: url('../img/back.png'),    -moz-linear-gradient(top, #BFD8EF, #769CC1); /* FF3.6+ */
+	background: url('../img/back.png'),     -ms-linear-gradient(top, #BFD8EF, #769CC1); /* IE10 */
+	background: url('../img/back.png'),      -o-linear-gradient(top, #BFD8EF, #769CC1); /* Opera 11.10+ */
+	background: url('../img/back.png'),         linear-gradient(top, #BFD8EF, #769CC1); /* W3C */
 	
 	
 	position:relative; /* needed for footer positioning*/
@@ -94,12 +94,15 @@ img {
 .logotext {
 	float: left;
 	margin: 15px;
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Uncial Antiqua', cursive;
+	/*font-family: 'Cinzel Decorative', cursive;*/
 }
 /* user info bar */
 .blackbar {
 	width: 100%;
 	min-height: 25px;
-	background: #000;
+	background: #001B00;
 	color: #fff;
 	overflow: hidden;
 }
@@ -120,7 +123,7 @@ img {
 
 .topbar {
 	min-height: 100px;
-	
+	background: #BFD8EF url('../img/green_gobbler.png');
 	
 }
 /*header buttons*/
@@ -131,8 +134,8 @@ img {
 }
 /* menu */
 .menu {
-	border-top: 1px solid red;
-	border-bottom: 2px solid red;
+	border-top: 1px solid #032E0E;
+	border-bottom: 2px solid #032E0E;
 	overflow: hidden;
 	clear: both;
 }
@@ -141,6 +144,7 @@ img {
 	padding: 6px;
 	margin-right: 10px;
 	font-size: 140%;
+	font-family: 'Cinzel Decorative', cursive;
 }
 
 /* action bar */
