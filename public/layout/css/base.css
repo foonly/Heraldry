@@ -9,6 +9,9 @@ body {
 	font-size: 12pt;
 	font-family: Serif;
 }
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
 div.world {
 	background: #BFD8EF url('../img/back.png'); /* fallback */
 	background: url('../img/back.png'), -webkit-gradient(linear, left top, left bottom, from(#BFD8EF), to(#769CC1)); /* Saf4+, Chrome */
