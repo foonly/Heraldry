@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Uplink Heraldry Site</title>
+        
+		<link href="layout/css/base.css" title="main" rel="stylesheet" type="text/css" media="screen,tv"/>
+		<link href="layout/css/min.css" title="main" rel="stylesheet" type="text/css" media="screen and (max-device-width: 800px)"/>
+		<link rel="shortcut icon" href="layout/img/favicon.png" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Uncial+Antiqua|Cinzel+Decorative|Shojumaru" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body>
+    	<div class="world">
+    		<div class='ribbon'>
+    			<div class='topbar'>
+    				{% include 'topbar.twig' %}
+    			
+	    			<div class='menu'>
+					{% for menu in tmenu %}
+						<a href="index.php?template={{ menu.href }}"><div class='menuitem'>{{ menu.name }}</div></a>
+					{% endfor %}
+					</div>
+				</div>
+				
+	        	{# action bar #}
+	        	{% block abar %}
+	        	<div class='action_bar'>
+					<div class='path'>
+						<a href='index.php?template={{ selected }}'>
+							<div class='pathitem'>
+								{{ selected|capitalize }}
+							</div>
+						</a>
+						
+					</div>
+					<div class='actions'>
+						<a href='index.php?template=blog_edit&amp;blogid=0'>
+							<div>
+								Add News
+							</div>
+						</a>
+					</div>
+				</div>
+				{% endblock %}
+				{# end action bar #}
+				
+	        	<div class='textbody'>
+		        	{% block body %}
+		        		Empty Body
+		        	{% endblock %}
+	        	</div>
+	        </div>
+        </div>
+    </body>
+</html>

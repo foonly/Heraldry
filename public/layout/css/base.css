@@ -1,0 +1,229 @@
+html {
+	height: 100%;
+}
+body {
+	
+	margin: 0;
+	border: 0;
+	height: 100%;
+	font-size: 12pt;
+	font-family: Serif;
+}
+div.world {
+	background: #BFD8EF url('../img/back.png'); /* fallback */
+	background: url('../img/back.png'), -webkit-gradient(linear, left top, left bottom, from(#BFD8EF), to(#769CC1)); /* Saf4+, Chrome */
+	background: url('../img/back.png'), -webkit-linear-gradient(top, #BFD8EF, #769CC1); /* Chrome 10+, Saf5.1+ */
+	background: url('../img/back.png'),    -moz-linear-gradient(top, #BFD8EF, #769CC1); /* FF3.6+ */
+	background: url('../img/back.png'),     -ms-linear-gradient(top, #BFD8EF, #769CC1); /* IE10 */
+	background: url('../img/back.png'),      -o-linear-gradient(top, #BFD8EF, #769CC1); /* Opera 11.10+ */
+	background: url('../img/back.png'),         linear-gradient(top, #BFD8EF, #769CC1); /* W3C */
+	
+	
+	position:relative; /* needed for footer positioning*/
+	margin:0 auto; /* center, not in IE5 */
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+	overflow:hidden;
+}
+div.ribbon {
+	max-width: 1000px;
+	min-height: 400px;
+	margin: auto;
+	margin-bottom: 45px;
+	overflow:hidden;
+	background: #f9f9f9;
+	border: 1px solid #000;
+	border-top: 0px solid #000;
+	border-radius: 0px 0px 8px 8px;
+}
+
+.clear {
+	clear: both;
+}
+
+input, select {
+	font-size: 10pt;
+	font-family: Serif;
+}
+
+a {
+	text-decoration: none;
+	color: #57553b;	
+}
+a:hover {
+	color: #ff8040;
+}
+
+hr {
+	border: 0px;
+	border-bottom: solid 1px #E2DB81;
+}
+.header {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+h2.header {
+	text-align: center;
+	color: #ff8040;
+}
+h3.header {
+	text-align: center;
+	color: #ff8040;
+}
+h4.header {
+	text-align: center;
+	color: #ff8040;
+}
+img {
+	border: none;
+}
+/*header of page */
+
+.logoarea {
+	min-width: 300px;
+	margin: 10px;
+	margin-top: -30px;
+}
+.logo {
+	float: left;
+	margin: 15px;
+}
+.logotext {
+	float: left;
+	margin: 15px;
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Uncial Antiqua', cursive;
+	/*font-family: 'Cinzel Decorative', cursive;*/
+}
+/* user info bar */
+.blackbar {
+	width: 100%;
+	min-height: 25px;
+	background: #001B00;
+	color: #fff;
+	overflow: hidden;
+}
+.blackbar a {
+	color: #fff;
+	
+}
+.blackbar a:hover {
+	color: #ff8040;
+}
+.frame {
+	min-width: 100px;
+	
+	border-left: 1px solid #f0f0f0;
+	padding: 5px;
+	float: right;
+}
+
+.topbar {
+	min-height: 100px;
+	background: #BFD8EF url('../img/green_gobbler.png');
+	
+}
+/*header buttons*/
+
+
+.right {
+	float: right;
+}
+/* menu */
+.menu {
+	background: rgba(255,255,255,0.5);
+	border-top: 1px solid #032E0E;
+	border-bottom: 2px solid #032E0E;
+	overflow: hidden;
+	clear: both;
+}
+.menuitem {
+	float: left;
+	padding: 6px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 140%;
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: bold;
+}
+/* action bar */
+.action_bar {
+	width: 100%;
+	clear: both;
+	background: #f0f0f0;
+	overflow: hidden;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.path {
+	float: left;
+	
+}
+.pathitem {
+	float: left;
+	min-width: 50px;
+	font-size: 120%;
+	margin: 5px;
+	border-bottom: 1px solid #000;
+	padding: 5px;
+}
+
+/* actions buttons */
+.actions {
+	float: left;
+	
+}
+.actions div {
+	float: left;
+	background: #f0f0f0;
+	border: 1px solid #000;
+	border-radius: 8px;
+	margin: 5px;
+	padding: 5px;
+	font-size: 120%;
+}
+/*main body */
+.textbody {
+	margin: 15px;
+	min-height: 300px;
+	color: #3F4745;
+}
+/*news*/
+.news_cont {
+	width: 100%;
+	margin-bottom: 20px;
+	
+}
+.news_header {
+	background: #ACC1BB;
+	padding: 8px 8px 4px 8px;
+}
+.head_text {
+	font-size: 140%;
+}
+.head_right {
+	float: right;
+}
+.news_body {
+	padding: 5px 12px 5px 12px;
+	min-height: 40px;
+}
+.comment_cont {
+	width: 100%;
+	margin-bottom: 10px;
+	background: #f0f0f0;
+}
+.comment_header {
+	font-size: 80%;
+	border-top: 4px solid #ACC1BB;
+	/*border-bottom: 1px solid #ACC1BB;*/
+	background: #E5ECE6;
+	padding: 8px 8px 4px 8px;
+}
+.comment_body {
+	padding: 5px 12px 5px 12px;
+	min-height: 20px;
+}
