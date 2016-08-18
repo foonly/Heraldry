@@ -18,13 +18,14 @@ if (empty($_GET['section'])) {
     $section = $_GET['section'];
 }
 
+$data = array();
 
 /*include a controller for database queries*/
 require_once '../controller/main.php';
 
 /*combine common vars and page specific vars*/
 $common_var = array('tmenu' => $menu, 'selected' => $template);
-$page_var = array('name1' => 'Tommy', 'userc' => $user);
+$page_var = array('name1' => 'Tommy', 'userc' => $user, 'data' => $data);
 $twig_var = $common_var + $page_var;
 
 echo $twig->render($section.'/'.$template.'.twig', $twig_var);
