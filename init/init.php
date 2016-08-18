@@ -2,6 +2,12 @@
 
 require_once "settings.php";
 
+if ($setting['dev']) {
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+}
+
 require_once "../lib/foondb/db.class.php";
 require_once "../lib/foonuser/user.class.php";
 //require_once "../functions/heraldyUser.php";
