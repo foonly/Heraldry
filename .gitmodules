@@ -1,6 +1,6 @@
 [submodule "include/foonuser"]
-	path = include/foonuser
+	path = lib/foonuser
 	url = https://bitbucket.org/schonben/foonuser.git
 [submodule "include/foondb"]
-	path = include/foondb
+	path = lib/foondb
 	url = git@bitbucket.org:schonben/foondb.git

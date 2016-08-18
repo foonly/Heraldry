@@ -2,8 +2,8 @@
 
 require_once "settings.php";
 
-require_once "../include/foondb/db.class.php";
-require_once "../include/foonuser/user.class.php";
+require_once "../lib/foondb/db.class.php";
+require_once "../lib/foonuser/user.class.php";
 //require_once "../functions/heraldyUser.php";
 
 $today = time();
@@ -41,7 +41,7 @@ $email = "tommy@uplink.fi";
 $user->recover($email);
 */
 
-//$user->newPasswd("supern0va","8c941ba1-c3d2-46b5-aa1b-0e590dca5a48%3B1471511221%3B1800%3B55b9873b54582cf78c35181e198b0510334a9cb7e50e9e36bdec1df217ced5a4");
+//$user->newPasswd("","8c941ba1-c3d2-46b5-aa1b-0e590dca5a48%3B1471511221%3B1800%3B55b9873b54582cf78c35181e198b0510334a9cb7e50e9e36bdec1df217ced5a4");
 
 
 
