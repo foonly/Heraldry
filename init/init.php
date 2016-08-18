@@ -36,10 +36,11 @@ if (isset($_POST['login']) && isset($_POST['passwd'])) {
     // Attempt a password login
     if (!$user->login($_POST['login'],$_POST['passwd'])) {
         // Handle failed login
-        header("Location: //".$_SERVER["HTTP_HOST"]."/index.php?template=login");
+        header("Location: //".$_SERVER["HTTP_HOST"].$setting['rpath']."/index.php?template=login");
         exit();
     }
-	header("Location: //".$_SERVER["HTTP_HOST"]."/index.php");
+    // Login succeeded
+    $user->setCookie();
 }
 /*
 $email = "tommy@uplink.fi";

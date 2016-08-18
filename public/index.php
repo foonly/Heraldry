@@ -24,7 +24,7 @@ $data = array();
 require_once '../controller/main.php';
 
 /*combine common vars and page specific vars*/
-$common_var = array('tmenu' => $menu, 'selected' => $template);
+$common_var = array('tmenu' => $menu, 'selected' => $template, 'setting' => $setting);
 $page_var = array('name1' => 'Tommy', 'userc' => $user, 'data' => $data);
 $twig_var = $common_var + $page_var;
 
