@@ -6,12 +6,12 @@ require_once '../init/initView.php';
 /* menu array */
 $menu = array(array('href' => 'news', 'name' => 'News'),array('href' => 'link2', 'name' => 'Menu 2'),array('href' => 'link3', 'name' => 'Menu 3'));
 /*check for template*/
-$template = $_GET[template];
+$template = $_GET['template'];
 if (!$template) {
 	$template = $menu[0]['href'];
 }
 /*check for section*/
-$section = $_GET[section];
+$section = $_GET['section'];
 if (!$section) {
 	$section = 'main';
 }
