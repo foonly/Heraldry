@@ -1,0 +1,16 @@
+{% extends "base.twig" %}
+
+{% block title %}
+	
+{% endblock %}
+
+{% block body %}
+<h1>Admin - Hello {{ user.getName }} {{ user.getLvl }}</h1>
+   ---<br>
+    {% for info in data.info %}
+
+					{{ info.fname|e }} {{ info.lvl|e }} <br>
+				
+	{% endfor %}
+            yo
+{% endblock %}

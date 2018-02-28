@@ -1,0 +1,37 @@
+{% extends "base.twig" %}
+
+{% block body %}
+	
+		<div class='news_cont'>
+			<div class='news_header'>
+				<span class='head_text'>
+					{{ data.newsItem.header|e }}
+				</span>
+				<span class='head_right'>
+					{{ data.newsItem.postdate|date("d-m-Y") }}
+				</span>
+			</div>
+			<div class='news_body'>
+				{{ data.newsItem.content|e }}
+			</div>
+		</div>
+	
+	{# display comments #}
+	
+	{% for comm in data.newsComments %}
+	<div class='comment_cont'>
+		<div class='comment_header'>
+				<span class='head_text'>
+					{{ comm.lname|e }}, {{ comm.fname|e }}
+				</span>
+				<span class='head_right'>
+					{{ comm.postdate|date("d-m-Y") }}
+				</span>
+		</div>
+		<div class='comment_body'>
+			{{ comm.content|e }}<br/>
+		</div>
+	</div>
+	{% endfor %}
+		
+{% endblock %}

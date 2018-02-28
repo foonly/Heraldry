@@ -1,0 +1,41 @@
+<div class='blackbar'>
+	{% if user.getId %}
+		<a href='index.php?template=login'>
+			<div class='frame'>
+				{{ user.getName }}
+			</div>
+		</a>
+	{% else %}
+	
+		<a href='index.php?template=login'>
+			<div class='frame'>
+				Login
+			</div>
+		</a>
+	{% endif %}
+	{% if user.getLvl >= 5 %}
+	<a href='index.php?section=admin&amp;template=info'>
+		<div class='frame'>
+			Admin
+		</div>
+	</a>
+	{% endif %}
+	<a href='/editor'>
+		<div class='frame'>
+			Editor
+		</div>
+	</a>
+</div>
+
+
+	<div class='logoarea'>
+		<div class='logo'>
+			<a href='index.php'><img src='layout/img/shield.png' alt='logo' /></a>
+		</div>
+		<div class='logotext'>
+			{% block title %}
+				<a href='index.php'><h1 id='title'>Uplink Heraldry Site</h1></a>
+				<h2 id='subtitle'>{{ selected }}</h2>
+			{% endblock %}
+		</div>
+	</div>

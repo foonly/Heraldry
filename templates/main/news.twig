@@ -1,0 +1,22 @@
+{% extends "base.twig" %}
+
+{% block body %}
+	{% for news in data.news %}
+		<div class='news_cont'>
+			<a href='index.php?template=news_post&amp;blogid={{ news.id }}'>
+			<div class='news_header'>
+				<span class='head_text'>
+					{{ news.header|e }}
+				</span>
+				<span class='head_right'>
+					{{ news.postdate|date("d-m-Y") }}
+				</span>
+			</div>
+			</a>
+			<div class='news_body'>
+				{{ news.content|e }}
+			</div>
+		</div>
+	{% endfor %}
+		
+{% endblock %}
