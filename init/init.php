@@ -10,7 +10,7 @@ if ($setting['dev']) {
 
 require_once "../lib/foondb/db.class.php";
 require_once "../lib/foonuser/user.class.php";
-//require_once "../functions/heraldyUser.php";
+require_once "../functions/heraldryUser.php";
 
 $today = time();
 
@@ -28,8 +28,8 @@ if (!isset($token)) {
 if (empty($token) && !empty($_COOKIE['userToken'])) {
     $token = $_COOKIE['userToken'];
 }
-//$user = new heraldryUser();
-$user = new user($token);
+$user = new heraldryUser($token);
+//$user = new user($token);
 
 //check login when sent from login form
 if (isset($_POST['login']) && isset($_POST['passwd'])) {
@@ -41,7 +41,18 @@ if (isset($_POST['login']) && isset($_POST['passwd'])) {
     }
     // Login succeeded
     $user->setCookie();
+	
 }
+/*if user is logged in, run this*/
+if ($user->getId()) {
+	//lvl test, clean up later
+	$plvl = $user->fetchLvl($user->getId());
+	foreach ($plvl as $lvl) {
+		
+		$user->setLvl($lvl);
+	}
+}
+
 /*
 $email = "tommy@uplink.fi";
 

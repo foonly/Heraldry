@@ -1,16 +1,25 @@
 <div class='blackbar'>
+	{% if user.getId %}
+		<a href='index.php?template=login'>
+			<div class='frame'>
+				{{ user.getName }}
+			</div>
+		</a>
+	{% else %}
 	
-	<a href='index.php?template=login'>
-		<div class='frame'>
-			Login
-		</div>
-	</a>
-	
+		<a href='index.php?template=login'>
+			<div class='frame'>
+				Login
+			</div>
+		</a>
+	{% endif %}
+	{% if user.getLvl >= 5 %}
 	<a href='index.php?section=admin&amp;template=info'>
 		<div class='frame'>
 			Admin
 		</div>
 	</a>
+	{% endif %}
 	<a href='/editor'>
 		<div class='frame'>
 			Editor

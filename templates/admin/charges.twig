@@ -1,0 +1,17 @@
+{% extends "base.twig" %}
+
+{% block title %}
+	
+{% endblock %}
+
+{% block body %}
+<h1>Admin</h1>
+    ---<br>
+    {% for info in data.info %}
+
+		{{ info.name|e }} {{ info.variation|e }}  {{ info.license|e }}<br>
+				
+	{% endfor %}
+	---<br>
+    yo
+{% endblock %}

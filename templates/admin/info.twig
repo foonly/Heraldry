@@ -5,7 +5,12 @@
 {% endblock %}
 
 {% block body %}
-<h1>{{ name1 }}</h1>
-    --- {{ userc.getId }} -
-            
+<h1>Admin - Hello {{ user.getName }} {{ user.getLvl }}</h1>
+   ---<br>
+    {% for info in data.info %}
+
+					{{ info.fname|e }} {{ info.lvl|e }} <br>
+				
+	{% endfor %}
+            yo
 {% endblock %}

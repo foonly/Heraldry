@@ -70,15 +70,15 @@ hr {
 
 h2.header {
 	text-align: center;
-	color: #ff8040;
+	color: #3F4745;
 }
 h3.header {
 	text-align: center;
-	color: #ff8040;
+	color: #3F4745;
 }
 h4.header {
 	text-align: center;
-	color: #ff8040;
+	color: #3F4745;
 }
 img {
 	border: none;
@@ -193,6 +193,30 @@ img {
 	margin: 15px;
 	min-height: 300px;
 	color: #3F4745;
+}
+/* login*/
+div.login {
+	text-align: center;
+	font-size: 120%;
+}
+div.login input {
+	font-size: 120%;
+}
+
+table.login {
+	
+}
+.cbutton {
+	padding: 5px;
+	text-align: center;
+	margin: auto;
+}
+.bstyle {
+	display: inline;
+	background: #f0f0f0;
+	border: 1px solid #657055;
+	border-radius: 3px;
+	
 }
 /*news*/
 .news_cont {

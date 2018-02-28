@@ -17,7 +17,7 @@
     			
 	    			<div class='menu'>
 					{% for menu in tmenu %}
-						<a href="index.php?template={{ menu.href }}"><div class='menuitem'>{{ menu.name }}</div></a>
+						<a href="index.php?section={{ section }}&template={{ menu.href }}"><div class='menuitem'>{{ menu.name }}</div></a>
 					{% endfor %}
 					</div>
 				</div>
