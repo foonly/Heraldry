@@ -17,7 +17,8 @@ class charge {
 
     static function getChargeList() {
         $sql = "
-            select
+        select
+			charge_var.id as id,
               charge_name.name as name,
               charge_name.charge_group as charge_group,
               charge_var.license as license,
@@ -33,10 +34,21 @@ class charge {
 
         $query = $GLOBALS['db']->query($sql);
 
+
+		
+		
         $chargelist = Array();
         while ($charge_row = $query->fetch()) {
             $chargelist[] = $charge_row;
+			/*generate image
+			$charge = new charge($charge_row['id']);
+			$chargeimg = $charge->generate();
+			
+			$chargelist[img] .= $chargeimg;
+			 
+			*/
         }
+		
         return $chargelist;
     }
     
